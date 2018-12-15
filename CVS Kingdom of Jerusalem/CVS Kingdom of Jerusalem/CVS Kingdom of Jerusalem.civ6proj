@@ -1,0 +1,1102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>TCS Kingdom of Jerusalem</Name>
+    <Guid>71d6dfbe-d130-4df3-82c4-f3d7c5c3600d</Guid>
+    <ProjectGuid>43b424fa-36cd-4be0-b435-ed5099f4e2f2</ProjectGuid>
+    <ModVersion>6</ModVersion>
+    <Teaser>This mod adds the Kingdom of Jerusalem civilization.</Teaser>
+    <Description>This mod adds the Kingdom of Jerusalem civilization.</Description>
+    <Authors>thecrazyscotsman</Authors>
+    <SpecialThanks>ChimpanG, Deliverator, LeeS, sukritact, Enigma, Antagonise</SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <AssemblyName>TCS Kingdom of Jerusalem</AssemblyName>
+    <RootNamespace>TCS Kingdom of Jerusalem</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="TCS_Jerusalem_ConfigDatabase"><Properties><LoadOrder>10</LoadOrder></Properties><File>Core/Leaders/Baldwin IV/TCS_Jerusalem_BaldwinIV_Config.xml</File></UpdateDatabase><UpdateText id="TCS_Jerusalem_ConfigText"><File priority="1">Core/Civilization/TCS_Jerusalem_Text.xml</File><File>Core/Leaders/Baldwin IV/TCS_Jerusalem_BaldwinIV_Text.xml</File></UpdateText><UpdateIcons id="TCS_Jerusalem_ConfigIcons"><File priority="1">Core/Civilization/TCS_Jerusalem_Icons.xml</File><File>Core/Leaders/Baldwin IV/TCS_Jerusalem_BaldwinIV_Icons.xml</File></UpdateIcons><UpdateArt id="TCS_Jerusalem_ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="TCS_Jerusalem_Database"><Properties><LoadOrder>10</LoadOrder></Properties><Criteria>TCSJerusalem_Standard</Criteria><File priority="1">Core/Civilization/TCS_Jerusalem_Database.sql</File><File>Core/Leaders/Baldwin IV/TCS_Jerusalem_BaldwinIV_Database.sql</File></UpdateDatabase><UpdateText id="TCS_Jerusalem_Text"><Criteria>TCSJerusalem_Standard</Criteria><File priority="1">Core/Civilization/TCS_Jerusalem_Text.xml</File><File>Core/Leaders/Baldwin IV/TCS_Jerusalem_BaldwinIV_Text.xml</File></UpdateText><UpdateIcons id="TCS_Jerusalem_Icons"><Criteria>TCSJerusalem_Standard</Criteria><File>Core/Civilization/TCS_Jerusalem_Icons.xml</File><File>Core/Leaders/Baldwin IV/TCS_Jerusalem_BaldwinIV_Icons.xml</File></UpdateIcons><UpdateArt id="TCS_Jerusalem_Art"><Criteria>TCSJerusalem_Standard</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="TCS_Jerusalem_Expansion1"><Properties><LoadOrder>11</LoadOrder></Properties><Criteria>TCSJerusalem_Expansion</Criteria><File>Core/Civilization/TCS_Jerusalem_Expansion1.sql</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="TCSJerusalem_Standard"><LeaderPlayable>Players:StandardPlayers::TCS_LEADER_BALDWIN_IV,StandardPlayers::TCS_LEADER_BALDWIN_IV,Players:Expansion1_Players::TCS_LEADER_BALDWIN_IV</LeaderPlayable></Criteria><Criteria id="TCSJerusalem_Expansion"><LeaderPlayable>Players:Expansion1_Players::TCS_LEADER_BALDWIN_IV</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <AssociationData><![CDATA[<Associations>
+  <Reference type="Mod" title="Yet Not Another Map Pack" id="36e88483-48fe-4545-b85f-bafc50dde315" />
+  <Reference type="Mod" title="JFD's Rule with Faith" id="650ff782-47b4-4b46-93fb-00bef8da8b8e" />
+  <Reference type="Dlc" title="DLC: Australia Civilization Pack" id="E3F53C61-371C-440B-96CE-077D318B36C0" />
+  <Reference type="Dlc" title="DLC: Aztec Civilization Pack" id="02A8BDDE-67EA-4D38-9540-26E685E3156E" />
+  <Reference type="Dlc" title="DLC: Khmer and Indonesia Civilization Pack" id="1F367231-A040-4793-BDBB-088816853683" />
+  <Reference type="Dlc" title="DLC: Nubia Civilization Pack" id="643EA320-8E1A-4CF1-A01C-00D88DDD131A" />
+  <Reference type="Dlc" title="DLC: Persia and Macedon Civilization Pack" id="E2749E9A-8056-45CD-901B-C368C8E83DEB" />
+  <Reference type="Dlc" title="DLC: Poland Civilization Pack" id="3809975F-263F-40A2-A747-8BFB171D821A" />
+  <Reference type="Dlc" title="DLC: Vikings Content" id="2F6E858A-28EF-46B3-BEAC-B985E52E9BC1" />
+</Associations>]]></AssociationData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Core" />
+    <Folder Include="Core\Civilization" />
+    <Folder Include="Core\Leaders" />
+    <Folder Include="ArtDefs" />
+    <Folder Include="Assets" />
+    <Folder Include="Core\Leaders\Baldwin IV" />
+    <Folder Include="Geometries\" />
+    <Folder Include="Materials\" />
+    <Folder Include="Textures\" />
+    <Folder Include="XLPs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\Buildings.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Civilizations.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Cultures.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\FallbackLeaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Landmarks.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\StrategicView.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Unit_Bins.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Crusader_Helmet_A.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Crusader_Helmet_B.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Crusader_Helmet_C.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Crusader_Helmet_D.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Crusader_Helmet_E.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Crusader_Helmet_F.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Crusader_Helmet_G.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Crusader_HorseArmor.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Heater_Shield_Full_Cross_A.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Heater_Shield_Full_Cross_C.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Heater_Shield_Jerusalem_D.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Heater_Shield_Jerusalem_E.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Heater_Shield_Moline_A.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Heater_Shield_Moline_B.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Heater_Shield_Pattee_A.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Heater_Shield_Pattee_B.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Heater_Shield_Pattee_C.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Heater_Shield_Pattee_D.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Heater_Shield_StJohn_A.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Heater_Shield_StJohn_B.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Heater_Shield_StJohn_C.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Hospitaller_Armor_A.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Hospitaller_Armor_B.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Hospitaller_Armor_C.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Hospitaller_Horse_Armor_A.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Hospitaller_Horse_Armor_B.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Hospitaller_Horse_Armor_C.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Hospitaller_Horse_Armor_D.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Jerusalem_Armor_A.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Jerusalem_Armor_B.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Jerusalem_Horse_Armor_A.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Jerusalem_Horse_Armor_B.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Knight_Light_Armor.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Male_Caucasian_HeadQ.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Male_Caucasian_HeadR.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Male_Caucasian_HeadS.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Male_Caucasian_HeadT.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\TCS_JERUSALEM_Chapter_Commandery.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Templar_Armor_A.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Templar_Armor_B.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Templar_Armor_C.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Templar_Horse_Armor_A.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Templar_Horse_Armor_B.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Templar_Horse_Armor_C.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Templar_Horse_Armor_D.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Civilization\CVS_Jerusalem_Database.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Civilization\CVS_Jerusalem_DummyStable.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Civilization\CVS_Jerusalem_Expansion1.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Civilization\CVS_Jerusalem_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Civilization\CVS_Jerusalem_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Leaders\Baldwin IV\CVS_Jerusalem_BaldwinIV_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Leaders\Baldwin IV\CVS_Jerusalem_BaldwinIV_Database.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Leaders\Baldwin IV\CVS_Jerusalem_BaldwinIV_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Leaders\Baldwin IV\CVS_Jerusalem_BaldwinIV_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Crusader_Helmet_A.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Crusader_Helmet_A.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Crusader_Helmet_B.cn6">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Crusader_Helmet_B.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Crusader_Helmet_B.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Crusader_Helmet_C.cn6">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Crusader_Helmet_C.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Crusader_Helmet_C.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Crusader_Helmet_D.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Crusader_Helmet_D.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Crusader_Helmet_E.cn6">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Crusader_Helmet_E.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Crusader_Helmet_E.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Crusader_Helmet_F.cn6">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Crusader_Helmet_F.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Crusader_Helmet_F.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Crusader_Helmet_G.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Crusader_Helmet_G.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Heater_Shield.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Heater_Shield.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Knight_Light_Armor.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Knight_Light_Armor.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Knight_Light_Armor2.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Knight_Light_Armor2.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Knight_Light_HorseArmor.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Knight_Light_HorseArmor.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Male_Caucasian_HeadQ.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Male_Caucasian_HeadQ.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Male_Caucasian_HeadR.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Male_Caucasian_HeadR.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Male_Caucasian_HeadS.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Male_Caucasian_HeadS.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Male_Caucasian_HeadT.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Male_Caucasian_HeadT.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Crusader_Helmet_1.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Crusader_Helmet_2.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Crusader_Helmet_3.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Crusader_Helmet_4.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Crusader_HorseArmor_Material.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Heater_Shield_FullCross_A.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Heater_Shield_FullCross_C.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Heater_Shield_Jerusalem_D.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Heater_Shield_Jerusalem_E.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Heater_Shield_Moline_A.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Heater_Shield_Moline_B.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Heater_Shield_Pattee_A.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Heater_Shield_Pattee_B.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Heater_Shield_Pattee_C.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Heater_Shield_Pattee_D.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Heater_Shield_StJohn_A.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Heater_Shield_StJohn_B.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Heater_Shield_StJohn_C.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Hospitaller_Armor_A.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Hospitaller_Armor_B.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Hospitaller_Armor_C.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Hospitaller_Horse_Armor_A.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Hospitaller_Horse_Armor_B.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Hospitaller_Horse_Armor_C.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Hospitaller_Horse_Armor_D.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Jerusalem_Armor_A.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Jerusalem_Armor_B.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Jerusalem_Horse_Armor_A.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Jerusalem_Horse_Armor_B.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Knight_Armor_Plain.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Templar_Armor_A.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Templar_Armor_B.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Templar_Armor_C.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Templar_Horse_Armor_A.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Templar_Horse_Armor_B.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Templar_Horse_Armor_C.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Templar_Horse_Armor_D.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_Metalness.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_Metalness.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Buildings_TCS_Commandery_Pillaged_Revealed.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Buildings_TCS_Commandery_Pillaged_Revealed.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Buildings_TCS_Commandery_Pillaged_Visible.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Buildings_TCS_Commandery_Pillaged_Visible.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Buildings_TCS_Commandery_Revealed.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Buildings_TCS_Commandery_Revealed.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Buildings_TCS_Commandery_UnderConstruction_Revealed.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Buildings_TCS_Commandery_UnderConstruction_Revealed.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Buildings_TCS_Commandery_UnderConstruction_Visible.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Buildings_TCS_Commandery_UnderConstruction_Visible.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Buildings_TCS_Commandery_Visible.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Buildings_TCS_Commandery_Visible.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Crusader_Helms_1_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Crusader_Helms_1_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Crusader_Helms_1_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Crusader_Helms_1_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Crusader_Helms_2_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Crusader_Helms_2_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Crusader_Helms_2_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Crusader_Helms_2_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Crusader_Helms_3_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Crusader_Helms_3_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Crusader_Helms_3_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Crusader_Helms_3_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Crusader_Helms_4_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Crusader_Helms_4_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Crusader_Helms_4_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Crusader_Helms_4_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_TCS_BALDWIN_IV.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_TCS_BALDWIN_IV.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Heater_Shield_AO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Heater_Shield_AO.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Heater_Shield_gloss.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Heater_Shield_gloss.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Heater_Shield_normal.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Heater_Shield_normal.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Hospitaller_Armor_A.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Hospitaller_Armor_A.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Hospitaller_Armor_B.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Hospitaller_Armor_B.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Hospitaller_Armor_C.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Hospitaller_Armor_C.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Hospitaller_Horse_Armor_A.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Hospitaller_Horse_Armor_A.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Hospitaller_Horse_Armor_B.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Hospitaller_Horse_Armor_B.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Hospitaller_Horse_Armor_C.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Hospitaller_Horse_Armor_C.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Hospitaller_Horse_Armor_D.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Hospitaller_Horse_Armor_D.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Jerusalem_Armor_A.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Jerusalem_Armor_A.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Jerusalem_Armor_B.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Jerusalem_Armor_B.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Jerusalem_Horse_Armor_A.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Jerusalem_Horse_Armor_A.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Jerusalem_Horse_Armor_B.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Jerusalem_Horse_Armor_B.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Knight_Armor_Plain_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Knight_Armor_Plain_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Knight_Armor_Plain_ao.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Knight_Armor_Plain_ao.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Knight_Armor_Plain_g.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Knight_Armor_Plain_g.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Knight_Armor_Plain_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Knight_Armor_Plain_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Knight_Armor_Plain_t.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Knight_Armor_Plain_t.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Knight_HorseArmor_Crusader_Base.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Knight_HorseArmor_Crusader_Base.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Knight_HorseArmor_Plain_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Knight_HorseArmor_Plain_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Knight_HorseArmor_Plain_g.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Knight_HorseArmor_Plain_g.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Knight_HorseArmor_Plain_t.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Knight_HorseArmor_Plain_t.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TCS_BALDWIN_IV_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TCS_BALDWIN_IV_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Metal_Gloss.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Metal_Gloss.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOAR Shields - Full Cross A.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOAR Shields - Full Cross A.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOAR Shields - Full Cross C.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOAR Shields - Full Cross C.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOAR Shields - Jerusalem D.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOAR Shields - Jerusalem D.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOAR Shields - Jerusalem E.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOAR Shields - Jerusalem E.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOAR Shields - Jerusalem Gloss F.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOAR Shields - Jerusalem Gloss F.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOAR Shields - Jerusalem Metalness 80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOAR Shields - Jerusalem Metalness 80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOAR Shields - Moline A.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOAR Shields - Moline A.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOAR Shields - Moline B.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOAR Shields - Moline B.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOAR Shields - Pattee A.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOAR Shields - Pattee A.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOAR Shields - Pattee B.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOAR Shields - Pattee B.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOAR Shields - Pattee C.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOAR Shields - Pattee C.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOAR Shields - Pattee D.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOAR Shields - Pattee D.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOAR Shields - Pattee Gloss F.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOAR Shields - Pattee Gloss F.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOAR Shields - Pattee Metalness 80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOAR Shields - Pattee Metalness 80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOAR Shields - St John A.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOAR Shields - St John A.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOAR Shields - St John B.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOAR Shields - St John B.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOAR Shields - St John C.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOAR Shields - St John C.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_BaldwinIV_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_BaldwinIV_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_BaldwinIV_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_BaldwinIV_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_BaldwinIV_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_BaldwinIV_45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_BaldwinIV_48.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_BaldwinIV_48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_BaldwinIV_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_BaldwinIV_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_BaldwinIV_55.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_BaldwinIV_55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_BaldwinIV_64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_BaldwinIV_64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_BaldwinIV_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_BaldwinIV_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_BALDWIN_IV_1.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_BALDWIN_IV_1.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_BALDWIN_IV_4.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_BALDWIN_IV_4.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Crusader22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Crusader22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Crusader256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Crusader256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Crusader32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Crusader32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Crusader38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Crusader38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Crusader50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Crusader50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Crusader80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Crusader80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Crusader_Portrait200.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Crusader_Portrait200.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Crusader_Portrait256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Crusader_Portrait256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Crusader_Portrait38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Crusader_Portrait38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Crusader_Portrait50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Crusader_Portrait50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Crusader_Portrait70.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Crusader_Portrait70.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Crusader_Portrait95.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Crusader_Portrait95.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Jerusalem22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Jerusalem22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Jerusalem256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Jerusalem256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Jerusalem30.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Jerusalem30.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Jerusalem36.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Jerusalem36.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Jerusalem44.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Jerusalem44.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Jerusalem48.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Jerusalem48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Jerusalem50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Jerusalem50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Jerusalem64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Jerusalem64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Jerusalem80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Jerusalem80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Jerusalem_BaldwinIV_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Jerusalem_BaldwinIV_45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Jerusalem_Buildings128.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Jerusalem_Buildings128.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Jerusalem_Buildings256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Jerusalem_Buildings256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Jerusalem_Buildings32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Jerusalem_Buildings32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Jerusalem_Buildings38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Jerusalem_Buildings38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Jerusalem_Buildings50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Jerusalem_Buildings50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Jerusalem_Buildings80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TCS_Jerusalem_Buildings80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Templar_Armor_A.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Templar_Armor_A.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Templar_Armor_B.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Templar_Armor_B.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Templar_Armor_C.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Templar_Armor_C.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Templar_Horse_Armor_A.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Templar_Horse_Armor_A.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Templar_Horse_Armor_B.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Templar_Horse_Armor_B.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Templar_Horse_Armor_C.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Templar_Horse_Armor_C.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Templar_Horse_Armor_D.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Templar_Horse_Armor_D.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\White_AO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\White_AO.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\White_Metal.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\White_Metal.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\crusaders.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\extraHeads.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\hero_buildings.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\Icons.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\LeaderFallbacks.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\StrategicView_Buildings.xlp">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

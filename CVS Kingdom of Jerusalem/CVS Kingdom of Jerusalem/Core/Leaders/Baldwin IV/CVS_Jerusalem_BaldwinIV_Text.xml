@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TCS_Jerusalem_BaldwinIV_Text -->
+<!-- Author: thecrazyscotsman -->
+<!-- DateCreated: 9/3/2017 2:11:17 PM -->
+<GameData>
+	<LocalizedText>
+		<!--LEADER INFO-->
+		<Replace Tag="LOC_TCS_LEADER_BALDWIN_IV_NAME" Language="en_US">
+			<Text>Baldwin</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_TCS_LEADER_BALDWIN_IV" Language="en_US">
+			<Text>King Baldwin, the Holy Land cries out for protection! Foreign invaders beset your kingdom on all sides and, as Christendom's champion, you are its best hope of salvation. The continued sanctity of the Holy Sepulchre depends on you, oh king, so gather your strength for one last mighty task. Call upon the military orders, and your crusader knights will rally behind you. Jerusalem must stand, in the name of our Lord!</Text>
+		</Replace>
+
+		<!--CIVILOPEDIA-->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_TCS_LEADER_BALDWIN_IV_TITLE" Language="en_US">
+			<Text>Baldwin IV</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_TCS_LEADER_BALDWIN_IV_SUBTITLE" Language="en_US">
+			<Text>King of Jerusalem, Defender of the Realm, and Patron of the Military Orders</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_TCS_LEADER_BALDWIN_IV_QUOTE" Language="en_US">
+			<Text>When you stand before God, you cannot say, "But I was told by others to do thus," or that virtue was not convenient at the time. This will not suffice. Remember that.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_TCS_LEADER_BALDWIN_IV_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Baldwin IV (1161 – 16 March 1185), called the Leper, or The Leper King reigned as King of Jerusalem from 1174 until his death. He was the son of Amalric I of Jerusalem and his first wife, Agnes of Courtenay.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_TCS_LEADER_BALDWIN_IV_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Baldwin spent his youth in his father's court in Jerusalem, having little contact with his mother, Agnes of Courtenay, Countess of Jaffa and Ascalon, and later Lady of Sidon, whom his father had been forced to divorce. Baldwin IV was educated by the historian William of Tyre (later Archbishop of Tyre and Chancellor of the kingdom), who made a disturbing discovery about the prince: he and his friends were playing one day, attempting to injure each other by driving their fingernails into each other's arms, but Baldwin felt no pain. William immediately recognized this as a sign of serious illness, but it was not conclusively identified as leprosy until a few years later; the onset of puberty accelerated his disease, in its most serious lepromatous form.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_TCS_LEADER_BALDWIN_IV_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>Baldwin's father died in 1174 and the boy was crowned at the age of 13, on 15 July that year. In his minority the kingdom was ruled by two successive regents, first Miles of Plancy, though unofficially, and then Raymond III of Tripoli, his father's cousin. In 1175, Raymond III, the acting king of Jerusalem, made a treaty with Saladin. </Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_TCS_LEADER_BALDWIN_IV_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>As a leper, Baldwin was not expected to reign long or produce an heir, and courtiers and lords positioned themselves for influence over Baldwin's heirs, his sister Sibylla and his half-sister Isabella. Sibylla was being raised by her great-aunt Ioveta in the convent of Bethany, while Isabella was at the court of her mother, the dowager queen Maria Comnena, in Nablus.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_TCS_LEADER_BALDWIN_IV_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text>Raymond's regency ended on the second anniversary of Baldwin's coronation: the young king was now of age. He did not ratify Raymond's treaty with Saladin, but instead, at the young age of 13, Baldwin successfully attacked Damascus in order to draw the Muslim Sultan Saladin away from Aleppo. In 1176 he was leading men in the front in similar attacks at Damascus and Andujar to repel Muslim attacks. Baldwin also planned an attack on Saladin's power-base in Egypt. He sent Raynald of Châtillon (the former prince of Antioch through marriage to Amalric I's cousin Constance of Antioch) to Constantinople as envoy to Manuel I Comnenus, to obtain Byzantine naval support. Raynald had recently been released from captivity in Aleppo: Manuel paid his ransom, since he was the stepfather of the Empress Maria of Antioch. Manuel sought the restoration of the Orthodox patriarchate in the kingdom, and arranged the marriage of Bohemond III of Antioch to his great-niece Theodora Comnena, sister of the queen-dowager Maria. Reynald returned early in 1177, and was rewarded with marriage to Stephanie of Milly, a widowed heiress. This made him lord of Kerak and Oultrejourdain. Baldwin tried to ensure that Reynald and William of Montferrat co-operated on the defence of the South. However, in June, William died at Ascalon after several weeks' illness, leaving the widowed Sibylla pregnant with the future Baldwin V.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_TCS_LEADER_BALDWIN_IV_CHAPTER_HISTORY_PARA_6" Language="en_US">
+			<Text>In November, Baldwin and Raynald of Châtillon defeated Saladin with the help of the Knights Templar at the celebrated Battle of Montgisard. That same year, Baldwin allowed his stepmother the dowager-queen to marry Balian of Ibelin, a conciliatory move to both, but it carried risks, given the Ibelins' ambitions. With Maria's patronage, the Ibelins tried to have the princesses Sibylla and Isabella married into their family as well.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_TCS_LEADER_BALDWIN_IV_CHAPTER_HISTORY_PARA_7" Language="en_US">
+			<Text>In 1179, the king met with some military setbacks in the north. On 10 April, he led a cattle-raid on Banias, but was surprised by Saladin's nephew Farrukh Shah. Baldwin's horse bolted, and in saving him, the much-respected constable of the kingdom Humphrey II of Toron, was mortally wounded. On 10 June, in response to cavalry raids near Sidon, Baldwin took a force, with Raymond of Tripoli and the Grand Master of the Templars, Odo of St Amand, to Marj Uyun. They defeated the raiders fording the Litani River, but were caught by Saladin's main force. The king (unable to remount unaided) was unhorsed, and had to be carried off the field on the back of another knight as his guard cut their way out. </Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_TCS_LEADER_BALDWIN_IV_CHAPTER_HISTORY_PARA_8" Language="en_US">
+			<Text>In the summer of 1180, Baldwin IV married Sibylla to Guy of Lusignan, brother of the constable Amalric of Lusignan. Earlier historians claimed that Sibylla's second marriage was entirely due to the influence of the King's mother; however, Hamilton argues that this is to reflect uncritically the personal grievances of William of Tyre and of the Ibelins. A plan to marry Sibylla to Hugh III of Burgundy had broken down; Raymond of Tripoli seems to have been attempting to marry her to Baldwin of Ibelin to bolster his power-base. A foreign match was essential to the kingdom, bringing the possibility of external aid. With the new French king Philip II a minor, Guy's status as a vassal of the King's cousin Henry II of England – who owed the Pope a penitential pilgrimage – was useful in this respect. Baldwin also betrothed his 8-year-old half-sister Isabella to Humphrey IV of Toron, repaying a debt of honour to Humphrey's grandfather, who had given his life for him at Banias, and removing Isabella from the control of her mother and the Ibelin faction (her betrothed was Raynald of Châtillon's stepson).</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_TCS_LEADER_BALDWIN_IV_CHAPTER_HISTORY_PARA_9" Language="en_US">
+			<Text>Guy had previously allied himself with Raynald, who was by now taking advantage of his position at Kerak to harass the trading caravans travelling between Egypt and Damascus. After Saladin retaliated for these attacks in the campaign and Battle of Belvoir Castle in 1182, Baldwin, now blind and unable to walk, appointed Guy regent of the kingdom. By June 1183 however, Saladin had captured Aleppo and completed his encirclement of Jerusalem.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_TCS_LEADER_BALDWIN_IV_CHAPTER_HISTORY_PARA_10" Language="en_US">
+			<Text>Nevertheless, Baldwin had become offended by Guy's actions as regent. Guy attended the wedding festivities for Isabella (now about 11) and Humphrey, held in Karak; however, the festivities were interrupted by Saladin, who besieged the fortress with the wedding guests inside. Baldwin marshalled what strength he had and lifted the siege, but Guy refused to fight Saladin and Saladin's troops managed to escape. Baldwin could not tolerate this and deposed Guy as regent. In disgrace, Guy retired to Ascalon, taking his wife the princess Sibylla with him. Although Baldwin was almost beyond his prime, due to his victories in Belvoir castle, Beirut and at Kerak castle, Saladin's campaigns in the Holy Land were delayed until the remainder of Baldwin's reign.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_TCS_LEADER_BALDWIN_IV_CHAPTER_HISTORY_PARA_11" Language="en_US">
+			<Text>Although Baldwin seems to have held no ill-will towards his sister, Baldwin appointed his 5-year-old nephew Baldwin of Montferrat as his heir and successor, with the support of Agnes and her husband Reginald of Sidon, Raymond, and many of the other barons, excluding Sibylla from the succession. Raymond was to act as guardian of the infant heir, and later as regent if Baldwin IV was to expire, but Baldwin IV himself would continue to rule. The child was crowned co-king as Baldwin V on November 20, 1183.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_TCS_LEADER_BALDWIN_IV_CHAPTER_HISTORY_PARA_12" Language="en_US">
+			<Text>In the early months of 1184, Baldwin attempted to have the marriage between Sibylla and Guy annulled. This was foiled by their holding fast in Ascalon, Guy refusing to attend the annulment proceedings. The military expedition to relieve Karak and the dynastic struggle had weakened Baldwin considerably. He died in Jerusalem in spring 1185, a few months after the death of his mother Agnes in Acre late in 1184. Though often suffering from the effects of leprosy and ruling with regency governments, Baldwin was able to maintain himself as king for much longer than otherwise might have been expected. As had been decided, Baldwin V succeeded his uncle, with Raymond of Tripoli as regent.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_TCS_LEADER_BALDWIN_IV_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>Jerusalem is a military and religious powerhouse, and under Baldwin IV is particularly dangerous as he leads his Crusaders against your holy places.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_TCS_LEADER_BALDWIN_IV_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>Jerusalem wields in two fists religious and military power. Its Holy Sites help build its armies faster, and it can purchase its Crusaders and Chapter Commanderies with [ICON_Faith] Faith. They are ready to make friends with those who follow their Religion, and implacable foes to those who follow a different one. The large amount of [ICON_Faith] Faith they seek to generate will help them gain attract many Great People, and their ability to churn out armies quickly will make them a very dangerous enemy.</Text>
+		</Replace>
+
+		<!--TRAITS/AGENDAS-->
+		<Row Tag="LOC_TCS_TRAIT_LEADER_CROSS_OF_MONTISGARDE_NAME" Language="en_US">
+			<Text>Cross of Montgisarde</Text>
+		</Row>
+		<Row Tag="LOC_TCS_TRAIT_LEADER_CROSS_OF_MONTISGARDE_DESCRIPTION" Language="en_US">
+			<Text>Cities with a Chapter Commandery gain 25% of the [ICON_Production] Production cost back as [ICON_Faith] Faith when training military units. When within four tiles of a Holy Site, military units suffer no [ICON_Strength] Combat Strength reduction from being injured and heal up to 25 hit points when eliminating a unit.</Text>
+		</Row>
+		<Replace Tag="LOC_TCS_AGENDA_LEPER_KING_NAME" Language="en_US">
+			<Text>The Leper King</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_AGENDA_LEPER_KING_DESCRIPTION" Language="en_US">
+			<Text>Likes civilizations who follow the same Religion and who are Declared Friends. Hates civilizations who have founded a different Religion.</Text>
+		</Replace>
+
+		<!--DIPLOMACY-->
+		<!--First Meet-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_TCS_LEADER_BALDWIN_IV_ANY" Language="en_US">
+			<Text>I Baldwin, by the grace of God, King of Jerusalem, extend you greetings.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_TCS_LEADER_BALDWIN_IV_ANY" Language="en_US">
+			<Text>Come, visit the Holy City and let us pray for peace between our people.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_TCS_LEADER_BALDWIN_IV_ANY" Language="en_US">
+			<Text>I humbly accept your invitation.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_TCS_LEADER_BALDWIN_IV_ANY" Language="en_US">
+			<Text>Let us visit each other's Capitals to strengthen our resolve against the heathen.</Text>
+		</Replace>
+		<!--Greetings-->
+		<Replace Tag="LOC_DIPLO_GREETING_TCS_LEADER_BALDWIN_IV_ANY" Language="en_US">
+			<Text>How can Jerusalem aid you?</Text>
+		</Replace>
+		<!--Delegation-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_TCS_LEADER_BALDWIN_IV_ANY" Language="en_US">
+			<Text>I have welcomed your emissaries with open arms. Let this be the beginning of great things.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_TCS_LEADER_BALDWIN_IV_ANY" Language="en_US">
+			<Text>I think not.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_TCS_LEADER_BALDWIN_IV_ANY" Language="en_US">
+			<Text>I have sent a delegation to your Capital, bearing gifts of pomegranates and barley - and the blessing of the Holy Land.</Text>
+		</Replace>
+		<!--Open Borders-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_TCS_LEADER_BALDWIN_IV_ANY" Language="en_US">
+			<Text>This will strengthen the bonds between our people.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_TCS_LEADER_BALDWIN_IV_ANY" Language="en_US">
+			<Text>I'll have no spies crossing my borders.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_TCS_LEADER_BALDWIN_IV_ANY" Language="en_US">
+			<Text>Let us open our borders to each other so we can provide mutual aid against our enemies.</Text>
+		</Replace>
+		<!--Declare Friendship-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_TCS_LEADER_BALDWIN_IV_ANY" Language="en_US">
+			<Text>Let these bonds of friendship grow ever stronger.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_TCS_LEADER_BALDWIN_IV_ANY" Language="en_US">
+			<Text>The Kingdom of Jerusalem does not need your "aid".</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_TCS_LEADER_BALDWIN_IV_ANY" Language="en_US">
+			<Text>Declaring our friendship will let the world know that we stand together. Will you join with me in good faith?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_TCS_LEADER_BALDWIN_IV_ANY" Language="en_US">
+			<Text>May our people grow ever closer together.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_TCS_LEADER_BALDWIN_IV_ANY" Language="en_US">
+			<Text>That is disappointing.</Text>
+		</Replace>
+		<!--Alliance-->
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_TCS_LEADER_BALDWIN_IV_ANY" Language="en_US">
+			<Text>We are beset on all sides by a host of enemies. Will you stand with me to protect the Holy Land?</Text>
+		</Replace>
+		<!--Kudos & Warnings-->
+		<Replace Tag="LOC_DIPLO_KUDO_TCS_LEADER_BALDWIN_IV_ANY" Language="en_US">
+			<Text>You have made wise provision for the future.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TCS_LEADER_BALDWIN_IV_ANY" Language="en_US">
+			<Text>Do you dare to mock Jerusalem's chosen defender?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_TCS_LEADER_BALDWIN_IV_ANY" Language="en_US">
+			<Text>You are always welcome in God's city.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_TCS_LEADER_BALDWIN_IV_ANY" Language="en_US">
+			<Text>Be careful, God is on our side.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_TCS_LEADER_BALDWIN_IV_ANY" Language="en_US">
+			<Text>The list of invaders we have defeated is long, are you looking to join their ranks? Or will you see wisdom and remove your soldiers from Jerusalem's frontier?</Text>
+		</Replace>
+		<!--Trade-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_TCS_LEADER_BALDWIN_IV_ANY" Language="en_US">
+			<Text>{LOC_DIPLO_KUDO_TCS_LEADER_BALDWIN_IV_ANY}</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_TCS_LEADER_BALDWIN_IV_ANY" Language="en_US">
+			<Text>{LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_TCS_LEADER_BALDWIN_IV_ANY}</Text>
+		</Replace>
+		<!--Denounce-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_TCS_LEADER_BALDWIN_IV_ANY" Language="en_US">
+			<Text>Even Jezebel was a saint compared to you.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_TCS_LEADER_BALDWIN_IV_ANY" Language="en_US">
+			<Text>You have strayed too far from the true faith, heathen (Denounces You).</Text>
+		</Replace>
+		<!--Declare War-->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_TCS_LEADER_BALDWIN_IV_ANY" Language="en_US">
+			<Text>I have met many foolish rulers during my reign, but none so foolish as you.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_TCS_LEADER_BALDWIN_IV_ANY" Language="en_US">
+			<Text>I am God's wrath poured out upon you. Repent, and your death will be swift.</Text>
+		</Replace>
+		<!--Make Peace-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_TCS_LEADER_BALDWIN_IV_ANY" Language="en_US">
+			<Text>Blessed are the peacemakers.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_TCS_LEADER_BALDWIN_IV_ANY" Language="en_US">
+			<Text>No peace can be had until you seek salvation.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_TCS_LEADER_BALDWIN_IV_ANY" Language="en_US">
+			<Text>Enough blood has watered the ground. Let us heal this divide between us and waste no more lives.</Text>
+		</Replace>
+		<!--Defeat-->
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_TCS_LEADER_BALDWIN_IV_ANY" Language="en_US">
+			<Text>I have died already, seeing the City of God fouled by your wretched hands.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_TCS_LEADER_BALDWIN_IV_ANY" Language="en_US">
+			<Text>{LOC_DIPLO_DEFEAT_FROM_AI_TCS_LEADER_BALDWIN_IV_ANY}</Text>
+		</Replace>
+		<!--Agenda-->
+		<Replace Tag="LOC_DIPLO_TCS_AGENDA_LEPER_KING_SAME_RELIGION" Language="en_US">
+			<Text>Baldwin is pleased that you share the same Religion.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_TCS_AGENDA_LEPER_KING_RELIGIOUS_FRIEND" Language="en_US">
+			<Text>Baldwin is pleased that you have joined your faithful brethren in friendship.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_TCS_AGENDA_LEPER_KING_DIFFERENT_RELIGION_FOUNDER" Language="en_US">
+			<Text>Baldwin is upset that you have founded a different Religion.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_TCS_AGENDA_LEPER_KING_DIFFERENT_RELIGION_FOUNDER" Language="en_US">
+			<Text>(You have founded a different Religion.)</Text>
+		</Replace>
+		
+		<!--RWF Support-->
+		<Replace Tag="LOC_GOVERNMENT_JFD_CHIEFDOM_LEADER_TITLE_TCS_BALDWIN_IV" Language="en_US">
+			<Text>Caput</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNMENT_JFD_AUTOCRACY_LEADER_TITLE_TCS_BALDWIN_IV" Language="en_US">
+			<Text>Dictator</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNMENT_JFD_OLIGARCHY_LEADER_TITLE_TCS_BALDWIN_IV" Language="en_US">
+			<Text>Consul</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNMENT_JFD_CLASSICAL_DEMOCRACY_LEADER_TITLE_TCS_BALDWIN_IV" Language="en_US">
+			<Text>Speaker</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNMENT_JFD_MERCHANT_REPUBLIC_LEADER_TITLE_TCS_BALDWIN_IV" Language="en_US">
+			<Text>Doge</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNMENT_JFD_MONARCHY_LEADER_TITLE_TCS_BALDWIN_IV" Language="en_US">
+			<Text>King</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNMENT_JFD_NOBLE_REPUBLIC_LEADER_TITLE_TCS_BALDWIN_IV" Language="en_US">
+			<Text>Captain</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNMENT_JFD_LIBERAL_DEMOCRACY_LEADER_TITLE_TCS_BALDWIN_IV" Language="en_US">
+			<Text>King</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNMENT_JFD_PEOPLES_REPUBLIC_LEADER_TITLE_TCS_BALDWIN_IV" Language="en_US">
+			<Text>Secretary-General</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNMENT_JFD_MILITARY_GUARDIANSHIP_LEADER_TITLE_TCS_BALDWIN_IV" Language="en_US">
+			<Text>Commander</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNMENT_JFD_EMPIRE_LEADER_TITLE_TCS_BALDWIN_IV" Language="en_US">
+			<Text>Emperor</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

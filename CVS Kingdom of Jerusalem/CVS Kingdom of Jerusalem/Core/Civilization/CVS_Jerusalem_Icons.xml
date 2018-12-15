@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TCS_Jerusalem_Icons -->
+<!-- Author: thecrazyscotsman -->
+<!-- DateCreated: 8/30/2017 1:50:23 PM -->
+<GameInfo>
+	<IconTextureAtlases>
+		<!--Civilization Atlas-->
+		<Row Name="ICON_ATLAS_TCS_CIVILIZATION_JERUSALEM" IconSize="22" IconsPerRow="2" IconsPerColumn="1" Filename="TCS_Jerusalem22.dds"/>
+		<Row Name="ICON_ATLAS_TCS_CIVILIZATION_JERUSALEM" IconSize="30" IconsPerRow="2" IconsPerColumn="1" Filename="TCS_Jerusalem30.dds"/>
+		<Row Name="ICON_ATLAS_TCS_CIVILIZATION_JERUSALEM" IconSize="36" IconsPerRow="2" IconsPerColumn="1" Filename="TCS_Jerusalem36.dds"/>
+		<Row Name="ICON_ATLAS_TCS_CIVILIZATION_JERUSALEM" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="TCS_Jerusalem_BaldwinIV_45.dds"/><!--Baked in color-->
+		<Row Name="ICON_ATLAS_TCS_CIVILIZATION_JERUSALEM" IconSize="44" IconsPerRow="2" IconsPerColumn="1" Filename="TCS_Jerusalem44.dds"/><!-- city state ribbon -->
+		<Row Name="ICON_ATLAS_TCS_CIVILIZATION_JERUSALEM" IconSize="48" IconsPerRow="2" IconsPerColumn="1" Filename="TCS_Jerusalem48.dds"/>
+		<Row Name="ICON_ATLAS_TCS_CIVILIZATION_JERUSALEM" IconSize="50" IconsPerRow="2" IconsPerColumn="1" Filename="TCS_Jerusalem50.dds"/>
+		<Row Name="ICON_ATLAS_TCS_CIVILIZATION_JERUSALEM" IconSize="64" IconsPerRow="2" IconsPerColumn="1" Filename="TCS_Jerusalem64.dds"/>
+		<Row Name="ICON_ATLAS_TCS_CIVILIZATION_JERUSALEM" IconSize="80" IconsPerRow="2" IconsPerColumn="1" Filename="TCS_Jerusalem80.dds"/>
+		<Row Name="ICON_ATLAS_TCS_CIVILIZATION_JERUSALEM" IconSize="256" IconsPerRow="2" IconsPerColumn="1" Filename="TCS_Jerusalem256.dds"/>
+
+		<Row Name="ICON_ATLAS_TCS_UNIT_CRUSADER" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="TCS_Crusader256.dds"/>
+		<Row Name="ICON_ATLAS_TCS_UNIT_CRUSADER" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="TCS_Crusader80.dds"/>
+		<Row Name="ICON_ATLAS_TCS_UNIT_CRUSADER" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="TCS_Crusader50.dds"/>
+		<Row Name="ICON_ATLAS_TCS_UNIT_CRUSADER" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="TCS_Crusader38.dds"/>
+		<Row Name="ICON_ATLAS_TCS_UNIT_CRUSADER" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="TCS_Crusader32.dds"/>
+		<Row Name="ICON_ATLAS_TCS_UNIT_CRUSADER" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="TCS_Crusader22.dds"/>
+		<Row Name="ICON_ATLAS_TCS_UNIT_CRUSADER_FOW" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="TCS_Crusader32.dds"/>
+
+		<Row Name="ICON_ATLAS_TCS_UNIT_CRUSADER_FLAG_SYMBOLS_WHITE" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="TCS_Crusader22.dds"/>
+		<Row Name="ICON_ATLAS_TCS_UNIT_CRUSADER_FLAG_SYMBOLS_WHITE" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="TCS_Crusader32.dds"/>
+		<Row Name="ICON_ATLAS_TCS_UNIT_CRUSADER_FLAG_SYMBOLS_BLACK" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="TCS_Crusader32.dds"/>
+		<Row Name="ICON_ATLAS_TCS_UNIT_CRUSADER_FLAG_SYMBOLS_WHITE" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="TCS_Crusader80.dds"/>
+
+		<Row Name="ICON_ATLAS_TCS_JERUSALEM_BUILDINGS" IconSize="32" IconsPerRow="2" IconsPerColumn="1" Filename="TCS_Jerusalem_Buildings32.dds"/>
+		<Row Name="ICON_ATLAS_TCS_JERUSALEM_BUILDINGS" IconSize="38" IconsPerRow="2" IconsPerColumn="1" Filename="TCS_Jerusalem_Buildings38.dds"/>
+		<Row Name="ICON_ATLAS_TCS_JERUSALEM_BUILDINGS" IconSize="50" IconsPerRow="2" IconsPerColumn="1" Filename="TCS_Jerusalem_Buildings50.dds"/>
+		<Row Name="ICON_ATLAS_TCS_JERUSALEM_BUILDINGS" IconSize="80" IconsPerRow="2" IconsPerColumn="1" Filename="TCS_Jerusalem_Buildings80.dds"/>
+		<Row Name="ICON_ATLAS_TCS_JERUSALEM_BUILDINGS" IconSize="128" IconsPerRow="2" IconsPerColumn="1" Filename="TCS_Jerusalem_Buildings128.dds"/>
+		<Row Name="ICON_ATLAS_TCS_JERUSALEM_BUILDINGS" IconSize="256" IconsPerRow="2" IconsPerColumn="1" Filename="TCS_Jerusalem_Buildings256.dds"/>
+		<Row Name="ICON_ATLAS_TCS_JERUSALEM_BUILDINGS_FOW" IconSize="256" IconsPerRow="2" IconsPerColumn="1" Filename="TCS_Jerusalem_Buildings256.dds"/>
+
+		<Row Name="ICON_ATLAS_TCS_CRUSADER_PORTRAIT" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="TCS_Crusader_Portrait38.dds"/>
+		<Row Name="ICON_ATLAS_TCS_CRUSADER_PORTRAIT" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="TCS_Crusader_Portrait50.dds"/>
+		<Row Name="ICON_ATLAS_TCS_CRUSADER_PORTRAIT" IconSize="70" IconsPerRow="1" IconsPerColumn="1" Filename="TCS_Crusader_Portrait70.dds"/>
+		<Row Name="ICON_ATLAS_TCS_CRUSADER_PORTRAIT" IconSize="95" IconsPerRow="1" IconsPerColumn="1" Filename="TCS_Crusader_Portrait95.dds"/>
+		<Row Name="ICON_ATLAS_TCS_CRUSADER_PORTRAIT" IconSize="200" IconsPerRow="1" IconsPerColumn="1" Filename="TCS_Crusader_Portrait200.dds"/>
+		<Row Name="ICON_ATLAS_TCS_CRUSADER_PORTRAIT" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="TCS_Crusader_Portrait256.dds"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_TCS_CIVILIZATION_JERUSALEM" Atlas="ICON_ATLAS_TCS_CIVILIZATION_JERUSALEM" Index="0"/>
+		<Row Name="ICON_TCS_BUILDING_CHAPTER_COMMANDERY" Atlas="ICON_ATLAS_TCS_JERUSALEM_BUILDINGS" Index="0"/>
+		<Row Name="ICON_TCS_BUILDING_CHAPTER_COMMANDERY_FOW" Atlas="ICON_ATLAS_TCS_JERUSALEM_BUILDINGS_FOW" Index="0"/>
+		<Row Name="ICON_TCS_BUILDING_STABLE_DUMMY" Atlas="ICON_ATLAS_TCS_JERUSALEM_BUILDINGS" Index="1"/>
+		<Row Name="ICON_TCS_BUILDING_STABLE_DUMMY_FOW" Atlas="ICON_ATLAS_TCS_JERUSALEM_BUILDINGS_FOW" Index="1"/>
+		<Row Name="ICON_TCS_BUILDING_STABLE_DUMMY_ALTERNATE" Atlas="ICON_ATLAS_TCS_JERUSALEM_BUILDINGS" Index="1"/>
+		<Row Name="ICON_TCS_BUILDING_STABLE_DUMMY_ALTERNATE_FOW" Atlas="ICON_ATLAS_TCS_JERUSALEM_BUILDINGS_FOW" Index="1"/>
+		<Row Name="ICON_TCS_UNIT_CRUSADER_WHITE" Atlas="ICON_ATLAS_TCS_UNIT_CRUSADER_FLAG_SYMBOLS_WHITE" Index="0"/>
+		<Row Name="ICON_TCS_UNIT_CRUSADER_BLACK" Atlas="ICON_ATLAS_TCS_UNIT_CRUSADER_FLAG_SYMBOLS_BLACK" Index="0"/>
+		<Row Name="ICON_TCS_UNIT_CRUSADER" Atlas="ICON_ATLAS_TCS_UNIT_CRUSADER" Index="0"/>
+		<Row Name="ICON_TCS_UNIT_CRUSADER_FOW" Atlas="ICON_ATLAS_TCS_UNIT_CRUSADER_FOW" Index="0"/>
+		<Row Name="ICON_TCS_UNIT_CRUSADER_PORTRAIT" Atlas="ICON_ATLAS_TCS_CRUSADER_PORTRAIT" Index="0"/>
+
+		<Update>
+			<Where Name="ICON_CIVILIZATION_JERUSALEM"/>
+			<Set Atlas ="ICON_ATLAS_TCS_CIVILIZATION_JERUSALEM" Index="1"/>
+		</Update>
+	</IconDefinitions>
+</GameInfo>
