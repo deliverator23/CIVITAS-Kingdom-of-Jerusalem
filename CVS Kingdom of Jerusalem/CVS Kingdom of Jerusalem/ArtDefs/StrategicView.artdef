@@ -75,7 +75,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects:BLPEntryValue">
-							<m_EntryName text="Buildings_TCS_Commandery_Visible"/>
+							<m_EntryName text="Buildings_CVS_Commandery_Visible"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Buildings.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_buildings"/>
@@ -93,7 +93,7 @@
 							<m_ParamName text="Visible_BottomRight"/>
 						</Element>
 						<Element class="AssetObjects:BLPEntryValue">
-							<m_EntryName text="Buildings_TCS_Commandery_Revealed"/>
+							<m_EntryName text="Buildings_CVS_Commandery_Revealed"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Buildings.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_buildings"/>
@@ -113,14 +113,14 @@
 					</m_Values>
 				</m_Fields>
 				<m_ChildCollections/>
-				<m_Name text="TCS_Commandery"/>
+				<m_Name text="CVS_Commandery"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects:BLPEntryValue">
-							<m_EntryName text="Buildings_TCS_Commandery_UnderConstruction_Visible"/>
+							<m_EntryName text="Buildings_CVS_Commandery_UnderConstruction_Visible"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Buildings.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_buildings"/>
@@ -138,7 +138,7 @@
 							<m_ParamName text="Visible_BottomRight"/>
 						</Element>
 						<Element class="AssetObjects:BLPEntryValue">
-							<m_EntryName text="Buildings_TCS_Commandery_UnderConstruction_Revealed"/>
+							<m_EntryName text="Buildings_CVS_Commandery_UnderConstruction_Revealed"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Buildings.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_buildings"/>
@@ -158,14 +158,14 @@
 					</m_Values>
 				</m_Fields>
 				<m_ChildCollections/>
-				<m_Name text="TCS_Commandery_Construction"/>
+				<m_Name text="CVS_Commandery_Construction"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects:BLPEntryValue">
-							<m_EntryName text="Buildings_TCS_Commandery_Pillaged_Visible"/>
+							<m_EntryName text="Buildings_CVS_Commandery_Pillaged_Visible"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Buildings.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_buildings"/>
@@ -183,7 +183,7 @@
 							<m_ParamName text="Visible_BottomRight"/>
 						</Element>
 						<Element class="AssetObjects:BLPEntryValue">
-							<m_EntryName text="Buildings_TCS_Commandery_Pillaged_Revealed"/>
+							<m_EntryName text="Buildings_CVS_Commandery_Pillaged_Revealed"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Buildings.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_buildings"/>
@@ -203,7 +203,7 @@
 					</m_Values>
 				</m_Fields>
 				<m_ChildCollections/>
-				<m_Name text="TCS_Commandery_Pillaged"/>
+				<m_Name text="CVS_Commandery_Pillaged"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 		</Element>
@@ -255,7 +255,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects:ArtDefReferenceValue">
-										<m_ElementName text="TCS_Commandery"/>
+										<m_ElementName text="CVS_Commandery"/>
 										<m_RootCollectionName text="BuildingEntries"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -270,7 +270,7 @@
 						</Element>
 					</Element>
 				</m_ChildCollections>
-				<m_Name text="TCS_Commandery"/>
+				<m_Name text="CVS_Commandery"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
@@ -318,7 +318,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects:ArtDefReferenceValue">
-										<m_ElementName text="TCS_Commandery_Construction"/>
+										<m_ElementName text="CVS_Commandery_Construction"/>
 										<m_RootCollectionName text="BuildingEntries"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -333,7 +333,7 @@
 						</Element>
 					</Element>
 				</m_ChildCollections>
-				<m_Name text="TCS_Commandery_Construction"/>
+				<m_Name text="CVS_Commandery_Construction"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
@@ -381,7 +381,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects:ArtDefReferenceValue">
-										<m_ElementName text="TCS_Commandery_Pillaged"/>
+										<m_ElementName text="CVS_Commandery_Pillaged"/>
 										<m_RootCollectionName text="BuildingEntries"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -396,7 +396,7 @@
 						</Element>
 					</Element>
 				</m_ChildCollections>
-				<m_Name text="TCS_Commandery_Pillaged"/>
+				<m_Name text="CVS_Commandery_Pillaged"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 		</Element>

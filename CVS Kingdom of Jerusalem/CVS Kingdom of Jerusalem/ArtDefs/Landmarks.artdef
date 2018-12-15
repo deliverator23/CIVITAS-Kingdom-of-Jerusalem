@@ -54,7 +54,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="TCS_CHAPTER_COMMANDERY, ARMORY"/>
+										<m_ElementName text="CVS_CHAPTER_COMMANDERY, ARMORY"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -96,14 +96,14 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="TCS_CHAPTER_COMMANDERY_2_ARMORY"/>
+							<m_Name text="CVS_CHAPTER_COMMANDERY_2_ARMORY"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="TCS_CHAPTER_COMMANDERY, ARMORY"/>
+										<m_ElementName text="CVS_CHAPTER_COMMANDERY, ARMORY"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -145,14 +145,14 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="TCS_CHAPTER_COMMANDERY_4_ARMORY"/>
+							<m_Name text="CVS_CHAPTER_COMMANDERY_4_ARMORY"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="TCS_CHAPTER_COMMANDERY, ARMORY"/>
+										<m_ElementName text="CVS_CHAPTER_COMMANDERY, ARMORY"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -194,14 +194,14 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="TCS_CHAPTER_COMMANDERY_3_ARMORY"/>
+							<m_Name text="CVS_CHAPTER_COMMANDERY_3_ARMORY"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="TCS_CHAPTER_COMMANDERY, ARMORY, MILITARY_ACADEMY"/>
+										<m_ElementName text="CVS_CHAPTER_COMMANDERY, ARMORY, MILITARY_ACADEMY"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -243,14 +243,14 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="TCS_CHAPTER_COMMANDERY_3_ARMORY_MILITARY_ACADEMY"/>
+							<m_Name text="CVS_CHAPTER_COMMANDERY_3_ARMORY_MILITARY_ACADEMY"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="TCS_CHAPTER_COMMANDERY, ARMORY, MILITARY_ACADEMY"/>
+										<m_ElementName text="CVS_CHAPTER_COMMANDERY, ARMORY, MILITARY_ACADEMY"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -292,14 +292,14 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="TCS_CHAPTER_COMMANDERY_4_ARMORY_MILITARY_ACADEMY"/>
+							<m_Name text="CVS_CHAPTER_COMMANDERY_4_ARMORY_MILITARY_ACADEMY"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="TCS_CHAPTER_COMMANDERY"/>
+										<m_ElementName text="CVS_CHAPTER_COMMANDERY"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -341,14 +341,14 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="TCS_CHAPTER_COMMANDERY_2"/>
+							<m_Name text="CVS_CHAPTER_COMMANDERY_2"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="TCS_CHAPTER_COMMANDERY"/>
+										<m_ElementName text="CVS_CHAPTER_COMMANDERY"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -390,14 +390,14 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="TCS_CHAPTER_COMMANDERY_3"/>
+							<m_Name text="CVS_CHAPTER_COMMANDERY_3"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="TCS_CHAPTER_COMMANDERY"/>
+										<m_ElementName text="CVS_CHAPTER_COMMANDERY"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -439,14 +439,14 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="TCS_CHAPTER_COMMANDERY_4"/>
+							<m_Name text="CVS_CHAPTER_COMMANDERY_4"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="TCS_CHAPTER_COMMANDERY"/>
+										<m_ElementName text="CVS_CHAPTER_COMMANDERY"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -488,7 +488,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="TCS_CHAPTER_COMMANDERY_1"/>
+							<m_Name text="CVS_CHAPTER_COMMANDERY_1"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
@@ -499,7 +499,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="TCS_BUILDING_CHAPTER_COMMANDERY"/>
+										<m_ElementName text="CVS_BUILDING_CHAPTER_COMMANDERY"/>
 										<m_RootCollectionName text="HeroBuildingTags"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -531,7 +531,7 @@
 										<m_ParamName text="Tag_Appeal"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="TCS_JERUSALEM_Chapter_Commandery"/>
+										<m_EntryName text="CVS_JERUSALEM_Chapter_Commandery"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="hero_buildings.xlp"/>
 										<m_BLPPackage text="landmarks/hero_buildings"/>
@@ -541,7 +541,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="TCS_BUILDING_CHAPTER_COMMANDERY"/>
+							<m_Name text="CVS_BUILDING_CHAPTER_COMMANDERY"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
@@ -556,7 +556,7 @@
 										<m_eValueType>ARTDEF_REF</m_eValueType>
 										<m_Values>
 											<Element class="AssetObjects..ArtDefReferenceValue">
-												<m_ElementName text="TCS_BUILDING_CHAPTER_COMMANDERY"/>
+												<m_ElementName text="CVS_BUILDING_CHAPTER_COMMANDERY"/>
 												<m_RootCollectionName text="HeroBuildingTags"/>
 												<m_ArtDefPath text="Landmarks.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -577,7 +577,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="TCS_CHAPTER_COMMANDERY, ARMORY"/>
+							<m_Name text="CVS_CHAPTER_COMMANDERY, ARMORY"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -588,7 +588,7 @@
 										<m_eValueType>ARTDEF_REF</m_eValueType>
 										<m_Values>
 											<Element class="AssetObjects..ArtDefReferenceValue">
-												<m_ElementName text="TCS_BUILDING_CHAPTER_COMMANDERY"/>
+												<m_ElementName text="CVS_BUILDING_CHAPTER_COMMANDERY"/>
 												<m_RootCollectionName text="HeroBuildingTags"/>
 												<m_ArtDefPath text="Landmarks.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -617,7 +617,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="TCS_CHAPTER_COMMANDERY, ARMORY, MILITARY_ACADEMY"/>
+							<m_Name text="CVS_CHAPTER_COMMANDERY, ARMORY, MILITARY_ACADEMY"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -628,7 +628,7 @@
 										<m_eValueType>ARTDEF_REF</m_eValueType>
 										<m_Values>
 											<Element class="AssetObjects..ArtDefReferenceValue">
-												<m_ElementName text="TCS_BUILDING_CHAPTER_COMMANDERY"/>
+												<m_ElementName text="CVS_BUILDING_CHAPTER_COMMANDERY"/>
 												<m_RootCollectionName text="HeroBuildingTags"/>
 												<m_ArtDefPath text="Landmarks.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -641,7 +641,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="TCS_CHAPTER_COMMANDERY"/>
+							<m_Name text="CVS_CHAPTER_COMMANDERY"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
@@ -668,4 +668,3 @@
 		</Element>
 	</m_RootCollections>
 </AssetObjects..ArtDefSet>
-

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- TCS_Jerusalem_Text -->
+<!-- CVS_Jerusalem_Text -->
 <!-- Author: thecrazyscotsman -->
 <!-- DateCreated: 8/30/2017 1:40:51 PM -->
 <GameData>
 	<LocalizedText>
 		<!--CIVILIZATION-->
-		<Replace Tag="LOC_TCS_CIVILIZATION_JERUSALEM_NAME" Language="en_US">
+		<Replace Tag="LOC_CVS_CIVILIZATION_JERUSALEM_NAME" Language="en_US">
 			<Text>Jerusalem</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_CIVILIZATION_JERUSALEM_DESCRIPTION" Language="en_US">
+		<Replace Tag="LOC_CVS_CIVILIZATION_JERUSALEM_DESCRIPTION" Language="en_US">
 			<Text>Jerusalem</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_CIVILIZATION_JERUSALEM_ADJECTIVE" Language="en_US">
+		<Replace Tag="LOC_CVS_CIVILIZATION_JERUSALEM_ADJECTIVE" Language="en_US">
 			<Text>Jerusalemite</Text>
 		</Replace>
 
@@ -30,346 +30,346 @@
 		</Replace>
 
 		<!--CIVILOPEDIA-->
-		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_TCS_BUILDING_CHAPTER_COMMANDERY_CHAPTER_HISTORY_PARA_1" Language="en_US">
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_CVS_BUILDING_CHAPTER_COMMANDERY_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Chapter Commanderies, also known as Chapter Houses, served as the base of operations for the monastic Military Orders founded as Catholic religious societies for the protection of Christians and reconquest of lands which were formerly held by Christian nations. These Military Orders include the Knights Hospitiller, Order of the Holy Sepulchre, Knights Templar, and the Order of Saint Lazarus. These Commanderies allowed the Military Orders to establish a presence in a variety of cities across Europe and Palestine, and through these bases provided services to Christians and soldiers fighting for Christendom.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_TCS_UNIT_CRUSADER_CHAPTER_HISTORY_PARA_1" Language="en_US">
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_CVS_UNIT_CRUSADER_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>The Crusades were a series of religious wars sanctioned by the Latin Church in the medieval period. The most commonly known are the campaigns in the Eastern Mediterranean aimed at recovering the Holy Land. Volunteers became Crusaders by taking a public vow and receiving plenary indulgences from the Church. Some were hoping for a mass ascension into heaven at Jerusalem or God's forgiveness for all their sins. Others participated to satisfy feudal obligations, obtain glory and honour or to seek economic and political gain. Most people view Crusaders as heavily armored knights, but the truth is that most Crusaders were footsoldiers, and the vast majority were not of noble birth. Crusading was seen as a way out for many, an opportunity to win a better life, or guarantee a place in the next.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_TCS_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_1" Language="en_US">
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CVS_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>The First Crusade was preached at the Council of Clermont in 1095 by Pope Urban II, with the goal of assisting the Byzantine Empire against the invasions of the Seljuk Turks. However, the main objective quickly became the control of the Holy Land. Egypt and much of Palestine were controlled by the Arab Shi'ite Fatimid Caliphate, which had extended further into Syria before the arrival of the Seljuqs. Warfare between the Fatimids and Seljuqs caused great disruption for the local Christians and for western pilgrims.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_TCS_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_2" Language="en_US">
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CVS_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_2" Language="en_US">
 			<Text>The crusaders arrived at Jerusalem in June 1099; a few of the neighbouring towns (Ramla, Lydda, Bethlehem, and others) were taken first, and Jerusalem itself was captured on July 15. On 22 July, a council was held in the Church of the Holy Sepulchre to establish a king for the newly created Kingdom of Jerusalem. Raymond IV of Toulouse and Godfrey of Bouillon were recognized as the leaders of the crusade and the siege of Jerusalem. Raymond was the wealthier and more powerful of the two, but at first he refused to become king, perhaps attempting to show his piety and probably hoping that the other nobles would insist upon his election anyway. The more popular Godfrey did not hesitate like Raymond, and accepted a position as secular leader.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_TCS_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_3" Language="en_US">
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CVS_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_3" Language="en_US">
 			<Text>Raymond was incensed and took his army to forage away from the city. The new kingdom, and Godfrey's reputation, was secured with the defeat of the Fatimid Egyptian army under al-Afdal Shahanshah at the Battle of Ascalon one month after the conquest, on August 12, but Raymond and Godfrey's continued antagonism prevented the crusaders from taking control of Ascalon itself. Godfrey increased the boundaries of the kingdom, by capturing Jaffa, Haifa, Tiberias, and other cities, and reducing many others to tributary status. He set the foundations for the system of vassalage in the kingdom, establishing the Principality of Galilee and the County of Jaffa. But his reign was short, and he died of an illness in 1100. His brother Baldwin of Boulogne claimed Jerusalem for himself as "king of the Latins of Jerusalem", laying the path for a secular state. Within this secular framework, a Catholic church hierarchy was established, overtop of the local Eastern Orthodox and Syrian Orthodox authorities, who retained their own hierarchies (the Catholics considered them schismatics and thus illegitimate; and vice versa).</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_TCS_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_4" Language="en_US">
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CVS_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_4" Language="en_US">
 			<Text>During Baldwin I's reign, the kingdom expanded even further. The numbers of Latin inhabitants increased, as the minor crusade of 1101 brought reinforcements to the kingdom. Baldwin repopulated Jerusalem with Franks and native Christians, after his expedition across the Jordan in 1115. With help from the Italian city-states and other adventurers, notably King Sigurd I of Norway, Baldwin captured the port cities of Acre (1104), Beirut (1110), and Sidon (1111), while exerting his suzerainty over the other crusader states to the north – Edessa (which he had founded in 1097 during the crusade), Antioch, and Tripoli, which he helped capture in 1109. He successfully defended against Muslim invasions, from the Fatimids at the numerous battles at Ramla and elsewhere in the southwest of the kingdom, and from Damascus and Mosul at the Battle of al-Sannabra in the northeast in 1113.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_TCS_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_5" Language="en_US">
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CVS_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_5" Language="en_US">
 			<Text>Baldwin died without heirs in 1118, during a campaign against Egypt, and the kingdom was offered to his brother Eustace III of Boulogne, who had accompanied Baldwin and Godfrey on the crusade. Eustace was uninterested, and instead the crown passed to Baldwin's relative, probably a cousin, Baldwin of Le Bourg, who had previously succeeded him in Edessa. Baldwin II was an able ruler, and he too successfully defended against Fatimid and Seljuk invasions. Although Antioch was severely weakened after the Battle of Ager Sanguinis in 1119, and Baldwin himself was held captive by the emir of Aleppo from 1122–1124, Baldwin led the crusader states to victory at the Battle of Azaz in 1125. His reign saw the establishment of the first military orders, the Knights Hospitaller and the Knights Templar; the earliest surviving written laws of the kingdom, compiled at the Council of Nablus in 1120; and the first commercial treaty with the Republic of Venice, the Pactum Warmundi, in 1124. The increase of naval and military support from Venice led to the capture of Tyre that year. The influence of Jerusalem was further extended over Edessa and Antioch, where Baldwin II acted as regent when their own leaders were killed in battle, although there were regency governments in Jerusalem as well during Baldwin's captivity. Baldwin was married to the Armenian noblewoman Morphia of Melitene, and had four daughters: Hodierna and Alice, who married into the families of the Count of Tripoli and Prince of Antioch; Ioveta, who became an influential abbess; and the eldest, Melisende, who was his heir and succeeded him upon his death in 1131, with her husband Fulk V of Anjou as king-consort. Their son, the future Baldwin III, was named co-heir by his grandfather.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_TCS_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_6" Language="en_US">
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CVS_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_6" Language="en_US">
 			<Text>After the death of Fulk in 1143, Zengi invaded and conquered Edessa in 1144. Queen Melisende, now regent for her elder son Baldwin III, appointed a new constable, Manasses of Hierges, to head the army after Fulk's death, but Edessa could not be recaptured, despite Zengi's own assassination in 1146. The fall of Edessa shocked Europe, and a Second Crusade arrived in 1148.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_TCS_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_7" Language="en_US">
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CVS_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_7" Language="en_US">
 			<Text>In 1148 the Second Crusade arrived in response to the fall of Edessa to the atabeg Zengi of Mosul. After meeting in Acre in June, the crusading kings Louis VII of France and Conrad III of Germany agreed with Melisende, Baldwin III and the major nobles of the kingdom to attack Damascus. Zengi's territory had been divided amongst his sons after his death, and Damascus no longer felt threatened, so an alliance had been made with Zengi's son Nur ad-Din, the emir of Aleppo. Perhaps remembering attacks launched on Jerusalem from Damascus in previous decades, Damascus seemed to be the best target for the crusade, rather than Aleppo or another city to the north which would have allowed for the recapture of Edessa. The subsequent Siege of Damascus was a complete failure; when the city seemed to be on the verge of collapse, the crusader army suddenly moved against another section of the walls, and were driven back. The crusaders retreated within three days. There were rumours of treachery and bribery, and Conrad III felt betrayed by the nobility of Jerusalem. Whatever the reason for the failure, the French and German armies returned home, and a few years later Damascus was firmly under Nur ad-Din's control.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_TCS_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_8" Language="en_US">
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CVS_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_8" Language="en_US">
 			<Text>The failure of the Second Crusade had dire long-term consequences for the kingdom. The West was hesitant to send large-scale expeditions; for the next few decades, only small armies came, headed by minor European nobles who desired to make a pilgrimage. The Muslim states of Syria were meanwhile gradually united by Nur ad-Din, who defeated the Principality of Antioch at the Battle of Inab in 1149 and gained control of Damascus in 1154. Nur ad-Din was extremely pious and during his rule the concept of jihad came to be interpreted as a kind of counter-crusade against the kingdom, which was an impediment to Muslim unity, both political and spiritual.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_TCS_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_9" Language="en_US">
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CVS_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_9" Language="en_US">
 			<Text>Baldwin IV reached his majority in 1176, but as a leper could have no children and could not be expected to rule much longer, so the focus of his succession passed to his sister Sibylla and his younger half-sister Isabella. Baldwin and his advisors recognised that it was essential for Sibylla to be married to a Western nobleman in order to access support from European states in a military crisis; while Raymond was still regent, a marriage was arranged for Sibylla and William of Montferrat, a cousin of Louis VII of France and of Frederick Barbarossa, Holy Roman Emperor. This match produced Baldwin V.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_TCS_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_10" Language="en_US">
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CVS_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_10" Language="en_US">
 			<Text>Baldwin proved to be an effective and energetic king as well as being a brilliant military commander: he defeated Saladin at the Battle of Montgisard in September 1177 despite being greatly outnumbered and having to rely on a levee-en-masse. Saladin attacked the kingdom in 1182 when hostilities broke out again, but was defeated at Belvoir Castle. King Baldwin, although quite ill, was still able to command the army in person. Saladin attempted to besiege Beirut from land and sea, and Baldwin raided Damascene territory, but neither side did significant damage, and a truce was signed.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_TCS_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_11" Language="en_US">
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CVS_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_11" Language="en_US">
 			<Text>Baldwin V's rule, with Raymond of Tripoli as regent and his great-uncle Joscelin of Edessa as his guardian, was short. He was a sickly child and died in the summer of 1186. Loyalties in the kingdom became split between Raymond of Tripoli and Guy of Lusignan. Saladin took this opportunity to attack again in 1187 when the truce ended, and despite a last-minute reconciliation in the face of Saladin's invasion, the army of the kingdom was utterly destroyed at the Battle of Hattin on July 4, 1187.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_TCS_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_12" Language="en_US">
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CVS_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_12" Language="en_US">
 			<Text>Over the next few months Saladin easily overran the entire kingdom. Only the port of Tyre remained in Frankish hands, defended by Conrad of Montferrat, the paternal uncle of Baldwin V, who had coincidentally arrived just in time from Constantinople. The fall of Jerusalem essentially ended the first Kingdom of Jerusalem. Much of the population, swollen with refugees fleeing Saladin's conquest of the surrounding territory, was allowed to flee to Tyre, Tripoli, or Egypt (whence they were sent back to Europe), but those who could not pay for their freedom were sold into slavery, and those who could were often robbed by Christians and Muslims alike on their way into exile. The capture of the city led to the Third Crusade, launched in 1189 and led by Richard the Lionheart, Philip Augustus and Frederick Barbarossa, though the last drowned en route.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_TCS_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_13" Language="en_US">
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CVS_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_13" Language="en_US">
 			<Text>For the next hundred years, the Kingdom of Jerusalem clung to life as a tiny kingdom hugging the Syrian coastline. Its capital was moved to Acre and controlled most of the coastline of present-day Israel and southern and central Lebanon, including the strongholds and towns of Jaffa, Arsuf, Caesarea, Tyre, Sidon, and Beirut. At best, it included only a few other significant cities, such as Ascalon and some interior fortresses, as well as suzerainty over Tripoli and Antioch. </Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_TCS_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_14" Language="en_US">
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CVS_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_14" Language="en_US">
 			<Text>Meanwhile, schemes were hatched to reconquer Jerusalem through Egypt. A Fourth Crusade was planned after the failure of the Third, but it resulted in the sack of Constantinople in 1204, and most of the crusaders involved never arrived in the kingdom. The Fourth Lateran Council in 1215 called for a new, better-organized crusade against Egypt, and in he spring of 1218 the Fifth Crusade began in earnest when German crusader fleets landed at Acre. Along with King John, who was elected leader of the crusade, the fleets sailed to Egypt and besieged Damietta at the mouth of the Nile. In July 1221, the crusaders set off towards Cairo, but they were stopped by the rising Nile, which al-Kamil allowed to flood by breaking the dams along its course. The sultan easily defeated the trapped crusader army and regained Damietta, marking the end of the Fifth Crusade.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_TCS_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_15" Language="en_US">
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CVS_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_15" Language="en_US">
 			<Text>In 1229, however, after receiving help from an army sent by Frederick II of the Holy Roman Empire, the kingdom was essentially restored, including regaining the city of Jerusalem. The Ayyubids were divided between Ayyub in Egypt, Isma'il in Damascus, and Dawud in Kerak. Isma'il, Dawud, and al-Mansur Ibrahim of Homs went to war with Ayyub, who hired the Khwarazmians to fight for him. The Khwarazmians were nomadic Turks from central Asia, who had recently been displaced by the Mongols further to the east and were now residing in Mesopotamia. With Ayyub's support they sacked Jerusalem in the summer of 1244, leaving it in ruins and useless to both Christians and Muslims. In October, the Khwarazmians, along with the Egyptian army under the command of Baibars, were met by the Frankish army, led by Philip of Montfort, Walter of Brienne, and the masters of the Templars, Hospitallers, and Teutonic Knights, along with al-Mansur and Dawud. On October 17 the Egyptian-Khwarazmian army destroyed the Frankish-Syrian coalition, and Walter of Brienne was taken captive and later executed. By 1247, Ayyub had reoccupied most of the territory that had been conceded in 1239, and had also gained control of Damascus.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_TCS_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_16" Language="en_US">
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CVS_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_16" Language="en_US">
 			<Text>The kingdom would not recover again, and the Mamluks under Baibars were taking advantage of the kingdom's constant disputes, and began conquering the remaining crusader cities along the coast. Acre fell on May 18, 1291. Tyre fell the next day, Sidon a month later, and Beirut in July. The crusaders moved their headquarters north to cities such as Tortosa, but lost that too, and were forced to relocate their headquarters offshore to Cyprus. Some naval raids and attempts to retake territory were made over the next ten years, but with the loss of the island of Arwad in 1302/1303, the Kingdom of Jerusalem ceased to exist on the mainland. The kings of Cyprus for many decades hatched plans to regain the Holy Land, but without success. </Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_TCS_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_17" Language="en_US">
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CVS_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_17" Language="en_US">
 			<Text>For the next seven centuries, up to today, a veritable multitude of European monarchs have used the title of King of Jerusalem.</Text>
-		</Replace>		
-		
+		</Replace>
+
 		<!--TRAITS-->
-		<Replace Tag="LOC_TCS_TRAIT_CIVILIZATION_DEUS_VULT_NAME" Language="en_US">
+		<Replace Tag="LOC_CVS_TRAIT_CIVILIZATION_DEUS_VULT_NAME" Language="en_US">
 			<Text>Deus Vult</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_TRAIT_CIVILIZATION_DEUS_VULT_DESCRIPTION" Language="en_US">
+		<Replace Tag="LOC_CVS_TRAIT_CIVILIZATION_DEUS_VULT_DESCRIPTION" Language="en_US">
 			<Text>Cities you capture convert to your religion. Holy Site districts gain an additional Major [ICON_Faith] Faith adjacency bonus from Encampment districts, and each Holy Site building provides bonus [ICON_Production] Production when producing units.</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_TRAIT_CIVILIZATION_UNIT_JERUSALEM_CRUSADER_NAME" Language="en_US">
+		<Replace Tag="LOC_CVS_TRAIT_CIVILIZATION_UNIT_JERUSALEM_CRUSADER_NAME" Language="en_US">
 			<Text>Crusader</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_TRAIT_CIVILIZATION_UNIT_JERUSALEM_CRUSADER_DESCRIPTION" Language="en_US">
+		<Replace Tag="LOC_CVS_TRAIT_CIVILIZATION_UNIT_JERUSALEM_CRUSADER_DESCRIPTION" Language="en_US">
 			<Text>Jerusalemite unique unit: Crusader</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_TRAIT_CIVILIZATION_BUILDING_CHAPTER_COMMANDERY_NAME" Language="en_US">
+		<Replace Tag="LOC_CVS_TRAIT_CIVILIZATION_BUILDING_CHAPTER_COMMANDERY_NAME" Language="en_US">
 			<Text>Chapter Commandery</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_TRAIT_CIVILIZATION_BUILDING_CHAPTER_COMMANDERY_DESCRIPTION" Language="en_US">
+		<Replace Tag="LOC_CVS_TRAIT_CIVILIZATION_BUILDING_CHAPTER_COMMANDERY_DESCRIPTION" Language="en_US">
 			<Text>Jerusalemite unique building: Chapter Commandery</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_JERUSALEM_ENCAMPMENT_FAITH_ADJACENCY" Language="en_US">
+		<Replace Tag="LOC_CVS_JERUSALEM_ENCAMPMENT_FAITH_ADJACENCY" Language="en_US">
 			<Text>+{1_num} [ICON_Faith] Faith from the adjacent Encampment district (unique to Jerusalem).</Text>
 		</Replace>
 
 		<!--BUILDINGS-->
-		<Replace Tag="LOC_TCS_BUILDING_CHAPTER_COMMANDERY_NAME" Language="en_US">
+		<Replace Tag="LOC_CVS_BUILDING_CHAPTER_COMMANDERY_NAME" Language="en_US">
 			<Text>Chapter Commandery</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_BUILDING_CHAPTER_COMMANDERY_DESCRIPTION" Language="en_US">
+		<Replace Tag="LOC_CVS_BUILDING_CHAPTER_COMMANDERY_DESCRIPTION" Language="en_US">
 			<Text>A building unique to Jerusalem, replacing the Barracks. +25% combat experience for all land units trained in this city. Increases city [ICON_Strength] Strength and grants a free melee unit when built.</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_BUILDING_DUMMY_STABLE_NAME" Language="en_US">
+		<Replace Tag="LOC_CVS_BUILDING_DUMMY_STABLE_NAME" Language="en_US">
 			<Text>Town Square</Text>
 		</Replace>
 
 		<!--UNITS-->
-		<Replace Tag="LOC_TCS_UNIT_CRUSADER_NAME" Language="en_US">
+		<Replace Tag="LOC_CVS_UNIT_CRUSADER_NAME" Language="en_US">
 			<Text>Crusader</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_UNIT_CRUSADER_DESCRIPTION" Language="en_US">
+		<Replace Tag="LOC_CVS_UNIT_CRUSADER_DESCRIPTION" Language="en_US">
 			<Text>Jerusalemite unique Medieval era unit that replaces the Knight. +10 [ICON_Strength] Combat Strength when fighting against civilizations who follow a different Religion.</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_ABILITY_CRUSADER_NAME" Language="en_US">
+		<Replace Tag="LOC_CVS_ABILITY_CRUSADER_NAME" Language="en_US">
 			<Text>Warrior of Christendom</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_ABILITY_CRUSADER_DESCRIPTION" Language="en_US">
+		<Replace Tag="LOC_CVS_ABILITY_CRUSADER_DESCRIPTION" Language="en_US">
 			<Text>+10 [ICON_Strength] Combat Strength when fighting against civilizations who follow a different Religion.</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_CRUSADER_COMBAT_BONUS_OTHER_RELIGION_DESCRIPTION" Language="en_US">
+		<Replace Tag="LOC_CVS_CRUSADER_COMBAT_BONUS_OTHER_RELIGION_DESCRIPTION" Language="en_US">
 			<Text>+10 vs. civilizations following another Religion.</Text>
 		</Replace>
 
 		<!--CITIES-->
-		<Replace Tag="LOC_TCS_CITY_NAME_JERUSALEM" Language="en_US">
+		<Replace Tag="LOC_CVS_CITY_NAME_JERUSALEM" Language="en_US">
 			<Text>Jerusalem</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_CITY_NAME_ACRE" Language="en_US">
+		<Replace Tag="LOC_CVS_CITY_NAME_ACRE" Language="en_US">
 			<Text>Acre</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_CITY_NAME_TYRE" Language="en_US">
+		<Replace Tag="LOC_CVS_CITY_NAME_TYRE" Language="en_US">
 			<Text>Tyre</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_CITY_NAME_ASCALON" Language="en_US">
+		<Replace Tag="LOC_CVS_CITY_NAME_ASCALON" Language="en_US">
 			<Text>Ascalon</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_CITY_NAME_JAFFA" Language="en_US">
+		<Replace Tag="LOC_CVS_CITY_NAME_JAFFA" Language="en_US">
 			<Text>Jaffa</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_CITY_NAME_KERAK" Language="en_US">
+		<Replace Tag="LOC_CVS_CITY_NAME_KERAK" Language="en_US">
 			<Text>Kerak</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_CITY_NAME_RAMLA" Language="en_US">
+		<Replace Tag="LOC_CVS_CITY_NAME_RAMLA" Language="en_US">
 			<Text>Ramla</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_CITY_NAME_IBELIN" Language="en_US">
+		<Replace Tag="LOC_CVS_CITY_NAME_IBELIN" Language="en_US">
 			<Text>Ibelin</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_CITY_NAME_MIRABEL" Language="en_US">
+		<Replace Tag="LOC_CVS_CITY_NAME_MIRABEL" Language="en_US">
 			<Text>Mirabel</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_CITY_NAME_TIBERIAS" Language="en_US">
+		<Replace Tag="LOC_CVS_CITY_NAME_TIBERIAS" Language="en_US">
 			<Text>Tiberias</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_CITY_NAME_NAZARETH" Language="en_US">
+		<Replace Tag="LOC_CVS_CITY_NAME_NAZARETH" Language="en_US">
 			<Text>Nazareth</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_CITY_NAME_HAIFA" Language="en_US">
+		<Replace Tag="LOC_CVS_CITY_NAME_HAIFA" Language="en_US">
 			<Text>Haifa</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_CITY_NAME_BEIRUT" Language="en_US">
+		<Replace Tag="LOC_CVS_CITY_NAME_BEIRUT" Language="en_US">
 			<Text>Beirut</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_CITY_NAME_BANIAS" Language="en_US">
+		<Replace Tag="LOC_CVS_CITY_NAME_BANIAS" Language="en_US">
 			<Text>Banias</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_CITY_NAME_TORON" Language="en_US">
+		<Replace Tag="LOC_CVS_CITY_NAME_TORON" Language="en_US">
 			<Text>Toron</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_CITY_NAME_CASTEL_NEUF" Language="en_US">
+		<Replace Tag="LOC_CVS_CITY_NAME_CASTEL_NEUF" Language="en_US">
 			<Text>Castel Neuf</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_CITY_NAME_SIDON" Language="en_US">
+		<Replace Tag="LOC_CVS_CITY_NAME_SIDON" Language="en_US">
 			<Text>Sidon</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_CITY_NAME_MONS_REGALIS" Language="en_US">
+		<Replace Tag="LOC_CVS_CITY_NAME_MONS_REGALIS" Language="en_US">
 			<Text>Mons Regalis</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_CITY_NAME_BEAUFORT" Language="en_US">
+		<Replace Tag="LOC_CVS_CITY_NAME_BEAUFORT" Language="en_US">
 			<Text>Beaufort</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_CITY_NAME_ARSUF" Language="en_US">
+		<Replace Tag="LOC_CVS_CITY_NAME_ARSUF" Language="en_US">
 			<Text>Arsuf</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_CITY_NAME_BETHSAN" Language="en_US">
+		<Replace Tag="LOC_CVS_CITY_NAME_BETHSAN" Language="en_US">
 			<Text>Bethsan</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_CITY_NAME_BLANCHEGARDE" Language="en_US">
+		<Replace Tag="LOC_CVS_CITY_NAME_BLANCHEGARDE" Language="en_US">
 			<Text>Blanchegarde</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_CITY_NAME_CAYMONT" Language="en_US">
+		<Replace Tag="LOC_CVS_CITY_NAME_CAYMONT" Language="en_US">
 			<Text>Caymont</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_CITY_NAME_DERA" Language="en_US">
+		<Replace Tag="LOC_CVS_CITY_NAME_DERA" Language="en_US">
 			<Text>Dera</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_CITY_NAME_HEBRON" Language="en_US">
+		<Replace Tag="LOC_CVS_CITY_NAME_HEBRON" Language="en_US">
 			<Text>Hebron</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_CITY_NAME_BETH_GIBELIN" Language="en_US">
+		<Replace Tag="LOC_CVS_CITY_NAME_BETH_GIBELIN" Language="en_US">
 			<Text>Beth Gibelin</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_CITY_NAME_MONTGISARD" Language="en_US">
+		<Replace Tag="LOC_CVS_CITY_NAME_MONTGISARD" Language="en_US">
 			<Text>Montgisard</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_CITY_NAME_NABLUS" Language="en_US">
+		<Replace Tag="LOC_CVS_CITY_NAME_NABLUS" Language="en_US">
 			<Text>Nablus</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_CITY_NAME_SCANDELEON" Language="en_US">
+		<Replace Tag="LOC_CVS_CITY_NAME_SCANDELEON" Language="en_US">
 			<Text>Scandeleon</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_CITY_NAME_LYDDA" Language="en_US">
+		<Replace Tag="LOC_CVS_CITY_NAME_LYDDA" Language="en_US">
 			<Text>Lydda</Text>
 		</Replace>
 
 		<!--CITIZEN NAMES-->
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_MALE_1" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_MALE_1" Language="en_US">
 			<Text>Amis</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_MALE_2" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_MALE_2" Language="en_US">
 			<Text>Evrard</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_MALE_3" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_MALE_3" Language="en_US">
 			<Text>Galierus</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_MALE_4" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_MALE_4" Language="en_US">
 			<Text>Hann</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_MALE_5" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_MALE_5" Language="en_US">
 			<Text>Johannes</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_MALE_6" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_MALE_6" Language="en_US">
 			<Text>Milo</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_MALE_7" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_MALE_7" Language="en_US">
 			<Text>Nāsir</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_MALE_8" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_MALE_8" Language="en_US">
 			<Text>Symon</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_MALE_9" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_MALE_9" Language="en_US">
 			<Text>Theobald</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_MALE_10" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_MALE_10" Language="en_US">
 			<Text>Villenc</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_FEMALE_1" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_FEMALE_1" Language="en_US">
 			<Text>Agnes</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_FEMALE_2" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_FEMALE_2" Language="en_US">
 			<Text>Aldreda</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_FEMALE_3" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_FEMALE_3" Language="en_US">
 			<Text>Burayha</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_FEMALE_4" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_FEMALE_4" Language="en_US">
 			<Text>Gislān</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_FEMALE_5" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_FEMALE_5" Language="en_US">
 			<Text>Hawā'</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_FEMALE_6" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_FEMALE_6" Language="en_US">
 			<Text>Iseut</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_FEMALE_7" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_FEMALE_7" Language="en_US">
 			<Text>Jocosa</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_FEMALE_8" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_FEMALE_8" Language="en_US">
 			<Text>Mary</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_FEMALE_9" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_FEMALE_9" Language="en_US">
 			<Text>Rhecia</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_FEMALE_10" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_FEMALE_10" Language="en_US">
 			<Text>Tarūb</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_MODERN_MALE_1" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_MODERN_MALE_1" Language="en_US">
 			<Text>Amiaz</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_MODERN_MALE_2" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_MODERN_MALE_2" Language="en_US">
 			<Text>Ariel</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_MODERN_MALE_3" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_MODERN_MALE_3" Language="en_US">
 			<Text>Coman</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_MODERN_MALE_4" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_MODERN_MALE_4" Language="en_US">
 			<Text>Edmond</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_MODERN_MALE_5" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_MODERN_MALE_5" Language="en_US">
 			<Text>Mukhtar</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_MODERN_MALE_6" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_MODERN_MALE_6" Language="en_US">
 			<Text>Philippe</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_MODERN_MALE_7" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_MODERN_MALE_7" Language="en_US">
 			<Text>Robert</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_MODERN_MALE_8" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_MODERN_MALE_8" Language="en_US">
 			<Text>Segev</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_MODERN_MALE_9" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_MODERN_MALE_9" Language="en_US">
 			<Text>Tamir</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_MODERN_MALE_10" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_MODERN_MALE_10" Language="en_US">
 			<Text>William</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_MODERN_FEMALE_1" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_MODERN_FEMALE_1" Language="en_US">
 			<Text>Adeline</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_MODERN_FEMALE_2" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_MODERN_FEMALE_2" Language="en_US">
 			<Text>Carmela</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_MODERN_FEMALE_3" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_MODERN_FEMALE_3" Language="en_US">
 			<Text>Élise</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_MODERN_FEMALE_4" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_MODERN_FEMALE_4" Language="en_US">
 			<Text>Ghazala</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_MODERN_FEMALE_5" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_MODERN_FEMALE_5" Language="en_US">
 			<Text>Hali</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_MODERN_FEMALE_6" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_MODERN_FEMALE_6" Language="en_US">
 			<Text>Jael</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_MODERN_FEMALE_7" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_MODERN_FEMALE_7" Language="en_US">
 			<Text>Marghanita</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_MODERN_FEMALE_8" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_MODERN_FEMALE_8" Language="en_US">
 			<Text>Rachel</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_MODERN_FEMALE_9" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_MODERN_FEMALE_9" Language="en_US">
 			<Text>Shammara</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_TCS_JERUSALEM_MODERN_FEMALE_10" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_CVS_JERUSALEM_MODERN_FEMALE_10" Language="en_US">
 			<Text>Wasime</Text>
 		</Replace>
 
 		<!--JERUSALEM CITY-STATE REPLACEMENT-->
-		<Replace Tag="LOC_TCS_CIVILIZATION_VARANASI_NAME" Language="en_US">
+		<Replace Tag="LOC_CVS_CIVILIZATION_VARANASI_NAME" Language="en_US">
 			<Text>Varanasi</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_CITY_NAME_VARANASI" Language="en_US">
+		<Replace Tag="LOC_CVS_CITY_NAME_VARANASI" Language="en_US">
 			<Text>Varanasi</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_CIVILIZATION_VARANASI_DESCRIPTION" Language="en_US">
+		<Replace Tag="LOC_CVS_CIVILIZATION_VARANASI_DESCRIPTION" Language="en_US">
 			<Text>Varanasi city-state</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_CIVILIZATION_VARANASI_ADJECTIVE" Language="en_US">
+		<Replace Tag="LOC_CVS_CIVILIZATION_VARANASI_ADJECTIVE" Language="en_US">
 			<Text>Varanasi</Text>
 		</Replace>
-		<Replace Tag="LOC_TCS_LEADER_TRAIT_VARANASI_NAME" Language="en_US">
+		<Replace Tag="LOC_CVS_LEADER_TRAIT_VARANASI_NAME" Language="en_US">
 			<Text>Varanasi Suzerain Bonus</Text>
 		</Replace>
-		
+
 		<Replace Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Archaeological evidence of the earliest known settlements in the vicinity of Varanasi suggest that such urban settlement of the area began ca. 2000 BC, placing Varanasi among the world's oldest continuously inhabited cities. These archaeological remains suggest that the Varanasi area was populated by Vedic people.</Text>
 		</Replace>
@@ -382,14 +382,14 @@
 		<Replace Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_JERUSALEM_CHAPTER_HISTORY_PARA_4" Language="en_US">
 			<Text>Varanasi remained the centre of activity for intellectuals and theologians during the Middle Ages, which further contributed to its reputation as a cultural centre of religion and education. To this day, Varanasi remains an important cultural institution in India, and a popular tourist destination.</Text>
 		</Replace>
-		
+
 		<!--INDIA VARANASI REPLACEMENT-->
 		<Replace Tag="LOC_CITY_NAME_VARANASI" Language="en_US">
 			<Text>Bhopal</Text>
 		</Replace>
 
 		<!--RWF Support-->
-		<Replace Tag="LOC_TCS_CIVILIZATION_JERUSALEM_DESCRIPTION_JFD_CIVILIZATION" Language="en_US">
+		<Replace Tag="LOC_CVS_CIVILIZATION_JERUSALEM_DESCRIPTION_JFD_CIVILIZATION" Language="en_US">
 			<Text>Jerusalemite Civilization</Text>
 		</Replace>
 	</LocalizedText>

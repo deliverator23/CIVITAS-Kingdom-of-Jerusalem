@@ -19,7 +19,7 @@
 							<m_eValueType>ARTDEF_REF</m_eValueType>
 							<m_Values>
 								<Element class="AssetObjects:ArtDefReferenceValue">
-									<m_ElementName text="TCS_CIVILIZATION_JERUSALEM"/>
+									<m_ElementName text="CVS_CIVILIZATION_JERUSALEM"/>
 									<m_RootCollectionName text="Civilization"/>
 									<m_ArtDefPath text="Civilizations.artdef"/>
 									<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -43,7 +43,7 @@
 							<m_eValueType>ARTDEF_REF</m_eValueType>
 							<m_Values>
 								<Element class="AssetObjects:ArtDefReferenceValue">
-									<m_ElementName text="TCS_CIVILIZATION_JERUSALEM"/>
+									<m_ElementName text="CVS_CIVILIZATION_JERUSALEM"/>
 									<m_RootCollectionName text="Civilization"/>
 									<m_ArtDefPath text="Civilizations.artdef"/>
 									<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -67,7 +67,7 @@
 							<m_eValueType>ARTDEF_REF</m_eValueType>
 							<m_Values>
 								<Element class="AssetObjects:ArtDefReferenceValue">
-									<m_ElementName text="TCS_CIVILIZATION_JERUSALEM"/>
+									<m_ElementName text="CVS_CIVILIZATION_JERUSALEM"/>
 									<m_RootCollectionName text="Civilization"/>
 									<m_ArtDefPath text="Civilizations.artdef"/>
 									<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -95,7 +95,7 @@
 							<m_eValueType>ARTDEF_REF</m_eValueType>
 							<m_Values>
 								<Element class="AssetObjects:ArtDefReferenceValue">
-									<m_ElementName text="TCS_CIVILIZATION_JERUSALEM"/>
+									<m_ElementName text="CVS_CIVILIZATION_JERUSALEM"/>
 									<m_RootCollectionName text="Civilization"/>
 									<m_ArtDefPath text="Civilizations.artdef"/>
 									<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -114,5 +114,3 @@
 		</Element>
 	</m_RootCollections>
 </AssetObjects:ArtDefSet>
-
-

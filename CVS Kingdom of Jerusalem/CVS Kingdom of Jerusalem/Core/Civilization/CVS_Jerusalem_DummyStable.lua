@@ -1,16 +1,16 @@
--- TCS_Jerusalem_DummyStable
+-- CVS_Jerusalem_DummyStable
 -- Author: LeeS
 -- DateCreated: 8/31/2017 12:09:37 PM
 --------------------------------------------------------------
-local iFreeBuildingForCivOnly = GameInfo.Buildings["TCS_BUILDING_STABLE_DUMMY"].Index
-local iFreeBuildingForEveryoneElse = GameInfo.Buildings["TCS_BUILDING_STABLE_DUMMY_ALTERNATE"].Index
+local iFreeBuildingForCivOnly = GameInfo.Buildings["CVS_BUILDING_STABLE_DUMMY"].Index
+local iFreeBuildingForEveryoneElse = GameInfo.Buildings["CVS_BUILDING_STABLE_DUMMY_ALTERNATE"].Index
 
 function CityFoundedFreeBuildings(iPlayer, iCityID)
 	if (iPlayer == 63) then return end
 	local pPlayer = Players[iPlayer];
 	local pCity = pPlayer:GetCities():FindID(iCityID)
 	local iCityPlotIndex = Map.GetPlot(pCity:GetX(), pCity:GetY()):GetIndex()
-	if (PlayerConfigurations[iPlayer]:GetCivilizationTypeName() == "TCS_CIVILIZATION_JERUSALEM") then
+	if (PlayerConfigurations[iPlayer]:GetCivilizationTypeName() == "CVS_CIVILIZATION_JERUSALEM") then
 		if pCity:GetBuildings():HasBuilding(iFreeBuildingForEveryoneElse) then
 			pCity:GetBuildings():RemoveBuilding(iFreeBuildingForEveryoneElse)
 		end

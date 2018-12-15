@@ -176,7 +176,7 @@
 						</Element>
 					</Element>
 				</m_ChildCollections>
-				<m_Name text="TCS_UNIT_CRUSADER"/>
+				<m_Name text="CVS_UNIT_CRUSADER"/>
 			</Element>
 		</Element>
 		<Element>
@@ -1813,4 +1813,3 @@
 		</Element>
 	</m_RootCollections>
 </AssetObjects::ArtDefSet>
-

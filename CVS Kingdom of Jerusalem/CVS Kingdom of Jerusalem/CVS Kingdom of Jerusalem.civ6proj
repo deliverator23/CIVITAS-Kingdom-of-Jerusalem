@@ -2,7 +2,7 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>TCS Kingdom of Jerusalem</Name>
+    <Name>CVS Kingdom of Jerusalem</Name>
     <Guid>71d6dfbe-d130-4df3-82c4-f3d7c5c3600d</Guid>
     <ProjectGuid>43b424fa-36cd-4be0-b435-ed5099f4e2f2</ProjectGuid>
     <ModVersion>6</ModVersion>
@@ -14,11 +14,11 @@
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
-    <AssemblyName>TCS Kingdom of Jerusalem</AssemblyName>
-    <RootNamespace>TCS Kingdom of Jerusalem</RootNamespace>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="TCS_Jerusalem_ConfigDatabase"><Properties><LoadOrder>10</LoadOrder></Properties><File>Core/Leaders/Baldwin IV/TCS_Jerusalem_BaldwinIV_Config.xml</File></UpdateDatabase><UpdateText id="TCS_Jerusalem_ConfigText"><File priority="1">Core/Civilization/TCS_Jerusalem_Text.xml</File><File>Core/Leaders/Baldwin IV/TCS_Jerusalem_BaldwinIV_Text.xml</File></UpdateText><UpdateIcons id="TCS_Jerusalem_ConfigIcons"><File priority="1">Core/Civilization/TCS_Jerusalem_Icons.xml</File><File>Core/Leaders/Baldwin IV/TCS_Jerusalem_BaldwinIV_Icons.xml</File></UpdateIcons><UpdateArt id="TCS_Jerusalem_ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="TCS_Jerusalem_Database"><Properties><LoadOrder>10</LoadOrder></Properties><Criteria>TCSJerusalem_Standard</Criteria><File priority="1">Core/Civilization/TCS_Jerusalem_Database.sql</File><File>Core/Leaders/Baldwin IV/TCS_Jerusalem_BaldwinIV_Database.sql</File></UpdateDatabase><UpdateText id="TCS_Jerusalem_Text"><Criteria>TCSJerusalem_Standard</Criteria><File priority="1">Core/Civilization/TCS_Jerusalem_Text.xml</File><File>Core/Leaders/Baldwin IV/TCS_Jerusalem_BaldwinIV_Text.xml</File></UpdateText><UpdateIcons id="TCS_Jerusalem_Icons"><Criteria>TCSJerusalem_Standard</Criteria><File>Core/Civilization/TCS_Jerusalem_Icons.xml</File><File>Core/Leaders/Baldwin IV/TCS_Jerusalem_BaldwinIV_Icons.xml</File></UpdateIcons><UpdateArt id="TCS_Jerusalem_Art"><Criteria>TCSJerusalem_Standard</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="TCS_Jerusalem_Expansion1"><Properties><LoadOrder>11</LoadOrder></Properties><Criteria>TCSJerusalem_Expansion</Criteria><File>Core/Civilization/TCS_Jerusalem_Expansion1.sql</File></UpdateDatabase></InGameActions>]]></InGameActionData>
-    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="TCSJerusalem_Standard"><LeaderPlayable>Players:StandardPlayers::TCS_LEADER_BALDWIN_IV,StandardPlayers::TCS_LEADER_BALDWIN_IV,Players:Expansion1_Players::TCS_LEADER_BALDWIN_IV</LeaderPlayable></Criteria><Criteria id="TCSJerusalem_Expansion"><LeaderPlayable>Players:Expansion1_Players::TCS_LEADER_BALDWIN_IV</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <AssemblyName>CVS Kingdom of Jerusalem</AssemblyName>
+    <RootNamespace>CVS Kingdom of Jerusalem</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="CVS_Jerusalem_ConfigDatabase"><Properties><LoadOrder>10</LoadOrder></Properties><File>Core/Leaders/Baldwin IV/CVS_Jerusalem_BaldwinIV_Config.xml</File></UpdateDatabase><UpdateText id="CVS_Jerusalem_ConfigText"><File priority="1">Core/Civilization/CVS_Jerusalem_Text.xml</File><File>Core/Leaders/Baldwin IV/CVS_Jerusalem_BaldwinIV_Text.xml</File></UpdateText><UpdateIcons id="CVS_Jerusalem_ConfigIcons"><File priority="1">Core/Civilization/CVS_Jerusalem_Icons.xml</File><File>Core/Leaders/Baldwin IV/CVS_Jerusalem_BaldwinIV_Icons.xml</File></UpdateIcons><UpdateArt id="CVS_Jerusalem_ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="CVS_Jerusalem_Database"><Properties><LoadOrder>10</LoadOrder></Properties><Criteria>CVSJerusalem_Standard</Criteria><File priority="1">Core/Civilization/CVS_Jerusalem_Database.sql</File><File>Core/Leaders/Baldwin IV/CVS_Jerusalem_BaldwinIV_Database.sql</File></UpdateDatabase><UpdateText id="CVS_Jerusalem_Text"><Criteria>CVSJerusalem_Standard</Criteria><File priority="1">Core/Civilization/CVS_Jerusalem_Text.xml</File><File>Core/Leaders/Baldwin IV/CVS_Jerusalem_BaldwinIV_Text.xml</File></UpdateText><UpdateIcons id="CVS_Jerusalem_Icons"><Criteria>CVSJerusalem_Standard</Criteria><File>Core/Civilization/CVS_Jerusalem_Icons.xml</File><File>Core/Leaders/Baldwin IV/CVS_Jerusalem_BaldwinIV_Icons.xml</File></UpdateIcons><UpdateArt id="CVS_Jerusalem_Art"><Criteria>CVSJerusalem_Standard</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="CVS_Jerusalem_Expansion1"><Properties><LoadOrder>11</LoadOrder></Properties><Criteria>CVSJerusalem_Expansion</Criteria><File>Core/Civilization/CVS_Jerusalem_Expansion1.sql</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="CVSJerusalem_Standard"><LeaderPlayable>Players:StandardPlayers::CVS_LEADER_BALDWIN_IV,StandardPlayers::CVS_LEADER_BALDWIN_IV,Players:Expansion1_Players::CVS_LEADER_BALDWIN_IV</LeaderPlayable></Criteria><Criteria id="CVSJerusalem_Expansion"><LeaderPlayable>Players:Expansion1_Players::CVS_LEADER_BALDWIN_IV</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
     <AssociationData><![CDATA[<Associations>
   <Reference type="Mod" title="Yet Not Another Map Pack" id="36e88483-48fe-4545-b85f-bafc50dde315" />
   <Reference type="Mod" title="JFD's Rule with Faith" id="650ff782-47b4-4b46-93fb-00bef8da8b8e" />
@@ -185,7 +185,7 @@
     <Content Include="Assets\Male_Caucasian_HeadT.ast">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Assets\TCS_JERUSALEM_Chapter_Commandery.ast">
+    <Content Include="Assets\CVS_JERUSALEM_Chapter_Commandery.ast">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Assets\Templar_Armor_A.ast">
@@ -455,40 +455,40 @@
     <Content Include="Textures\Black_Metalness.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\Buildings_TCS_Commandery_Pillaged_Revealed.dds">
+    <Content Include="Textures\Buildings_CVS_Commandery_Pillaged_Revealed.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\Buildings_TCS_Commandery_Pillaged_Revealed.tex">
+    <Content Include="Textures\Buildings_CVS_Commandery_Pillaged_Revealed.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\Buildings_TCS_Commandery_Pillaged_Visible.dds">
+    <Content Include="Textures\Buildings_CVS_Commandery_Pillaged_Visible.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\Buildings_TCS_Commandery_Pillaged_Visible.tex">
+    <Content Include="Textures\Buildings_CVS_Commandery_Pillaged_Visible.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\Buildings_TCS_Commandery_Revealed.dds">
+    <Content Include="Textures\Buildings_CVS_Commandery_Revealed.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\Buildings_TCS_Commandery_Revealed.tex">
+    <Content Include="Textures\Buildings_CVS_Commandery_Revealed.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\Buildings_TCS_Commandery_UnderConstruction_Revealed.dds">
+    <Content Include="Textures\Buildings_CVS_Commandery_UnderConstruction_Revealed.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\Buildings_TCS_Commandery_UnderConstruction_Revealed.tex">
+    <Content Include="Textures\Buildings_CVS_Commandery_UnderConstruction_Revealed.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\Buildings_TCS_Commandery_UnderConstruction_Visible.dds">
+    <Content Include="Textures\Buildings_CVS_Commandery_UnderConstruction_Visible.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\Buildings_TCS_Commandery_UnderConstruction_Visible.tex">
+    <Content Include="Textures\Buildings_CVS_Commandery_UnderConstruction_Visible.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\Buildings_TCS_Commandery_Visible.dds">
+    <Content Include="Textures\Buildings_CVS_Commandery_Visible.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\Buildings_TCS_Commandery_Visible.tex">
+    <Content Include="Textures\Buildings_CVS_Commandery_Visible.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\Crusader_Helms_1_a.dds">
@@ -539,10 +539,10 @@
     <Content Include="Textures\Crusader_Helms_4_n.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\FALLBACK_NEUTRAL_TCS_BALDWIN_IV.dds">
+    <Content Include="Textures\FALLBACK_NEUTRAL_CVS_BALDWIN_IV.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\FALLBACK_NEUTRAL_TCS_BALDWIN_IV.tex">
+    <Content Include="Textures\FALLBACK_NEUTRAL_CVS_BALDWIN_IV.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\Heater_Shield_AO.dds">
@@ -683,10 +683,10 @@
     <Content Include="Textures\Knight_HorseArmor_Plain_t.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\LEADER_TCS_BALDWIN_IV_NEUTRAL.dds">
+    <Content Include="Textures\LEADER_CVS_BALDWIN_IV_NEUTRAL.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\LEADER_TCS_BALDWIN_IV_NEUTRAL.tex">
+    <Content Include="Textures\LEADER_CVS_BALDWIN_IV_NEUTRAL.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\Metal_Gloss.dds">
@@ -797,232 +797,232 @@
     <Content Include="Textures\MOAR Shields - St John C.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_BaldwinIV_256.dds">
+    <Content Include="Textures\CVS_BaldwinIV_256.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_BaldwinIV_256.tex">
+    <Content Include="Textures\CVS_BaldwinIV_256.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_BaldwinIV_32.dds">
+    <Content Include="Textures\CVS_BaldwinIV_32.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_BaldwinIV_32.tex">
+    <Content Include="Textures\CVS_BaldwinIV_32.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_BaldwinIV_45.dds">
+    <Content Include="Textures\CVS_BaldwinIV_45.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_BaldwinIV_45.tex">
+    <Content Include="Textures\CVS_BaldwinIV_45.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_BaldwinIV_48.dds">
+    <Content Include="Textures\CVS_BaldwinIV_48.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_BaldwinIV_48.tex">
+    <Content Include="Textures\CVS_BaldwinIV_48.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_BaldwinIV_50.dds">
+    <Content Include="Textures\CVS_BaldwinIV_50.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_BaldwinIV_50.tex">
+    <Content Include="Textures\CVS_BaldwinIV_50.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_BaldwinIV_55.dds">
+    <Content Include="Textures\CVS_BaldwinIV_55.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_BaldwinIV_55.tex">
+    <Content Include="Textures\CVS_BaldwinIV_55.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_BaldwinIV_64.dds">
+    <Content Include="Textures\CVS_BaldwinIV_64.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_BaldwinIV_64.tex">
+    <Content Include="Textures\CVS_BaldwinIV_64.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_BaldwinIV_80.dds">
+    <Content Include="Textures\CVS_BaldwinIV_80.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_BaldwinIV_80.tex">
+    <Content Include="Textures\CVS_BaldwinIV_80.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_BALDWIN_IV_1.dds">
+    <Content Include="Textures\CVS_BALDWIN_IV_1.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_BALDWIN_IV_1.tex">
+    <Content Include="Textures\CVS_BALDWIN_IV_1.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_BALDWIN_IV_4.dds">
+    <Content Include="Textures\CVS_BALDWIN_IV_4.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_BALDWIN_IV_4.tex">
+    <Content Include="Textures\CVS_BALDWIN_IV_4.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Crusader22.dds">
+    <Content Include="Textures\CVS_Crusader22.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Crusader22.tex">
+    <Content Include="Textures\CVS_Crusader22.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Crusader256.dds">
+    <Content Include="Textures\CVS_Crusader256.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Crusader256.tex">
+    <Content Include="Textures\CVS_Crusader256.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Crusader32.dds">
+    <Content Include="Textures\CVS_Crusader32.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Crusader32.tex">
+    <Content Include="Textures\CVS_Crusader32.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Crusader38.dds">
+    <Content Include="Textures\CVS_Crusader38.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Crusader38.tex">
+    <Content Include="Textures\CVS_Crusader38.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Crusader50.dds">
+    <Content Include="Textures\CVS_Crusader50.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Crusader50.tex">
+    <Content Include="Textures\CVS_Crusader50.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Crusader80.dds">
+    <Content Include="Textures\CVS_Crusader80.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Crusader80.tex">
+    <Content Include="Textures\CVS_Crusader80.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Crusader_Portrait200.dds">
+    <Content Include="Textures\CVS_Crusader_Portrait200.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Crusader_Portrait200.tex">
+    <Content Include="Textures\CVS_Crusader_Portrait200.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Crusader_Portrait256.dds">
+    <Content Include="Textures\CVS_Crusader_Portrait256.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Crusader_Portrait256.tex">
+    <Content Include="Textures\CVS_Crusader_Portrait256.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Crusader_Portrait38.dds">
+    <Content Include="Textures\CVS_Crusader_Portrait38.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Crusader_Portrait38.tex">
+    <Content Include="Textures\CVS_Crusader_Portrait38.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Crusader_Portrait50.dds">
+    <Content Include="Textures\CVS_Crusader_Portrait50.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Crusader_Portrait50.tex">
+    <Content Include="Textures\CVS_Crusader_Portrait50.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Crusader_Portrait70.dds">
+    <Content Include="Textures\CVS_Crusader_Portrait70.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Crusader_Portrait70.tex">
+    <Content Include="Textures\CVS_Crusader_Portrait70.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Crusader_Portrait95.dds">
+    <Content Include="Textures\CVS_Crusader_Portrait95.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Crusader_Portrait95.tex">
+    <Content Include="Textures\CVS_Crusader_Portrait95.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Jerusalem22.dds">
+    <Content Include="Textures\CVS_Jerusalem22.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Jerusalem22.tex">
+    <Content Include="Textures\CVS_Jerusalem22.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Jerusalem256.dds">
+    <Content Include="Textures\CVS_Jerusalem256.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Jerusalem256.tex">
+    <Content Include="Textures\CVS_Jerusalem256.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Jerusalem30.dds">
+    <Content Include="Textures\CVS_Jerusalem30.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Jerusalem30.tex">
+    <Content Include="Textures\CVS_Jerusalem30.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Jerusalem36.dds">
+    <Content Include="Textures\CVS_Jerusalem36.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Jerusalem36.tex">
+    <Content Include="Textures\CVS_Jerusalem36.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Jerusalem44.dds">
+    <Content Include="Textures\CVS_Jerusalem44.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Jerusalem44.tex">
+    <Content Include="Textures\CVS_Jerusalem44.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Jerusalem48.dds">
+    <Content Include="Textures\CVS_Jerusalem48.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Jerusalem48.tex">
+    <Content Include="Textures\CVS_Jerusalem48.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Jerusalem50.dds">
+    <Content Include="Textures\CVS_Jerusalem50.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Jerusalem50.tex">
+    <Content Include="Textures\CVS_Jerusalem50.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Jerusalem64.dds">
+    <Content Include="Textures\CVS_Jerusalem64.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Jerusalem64.tex">
+    <Content Include="Textures\CVS_Jerusalem64.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Jerusalem80.dds">
+    <Content Include="Textures\CVS_Jerusalem80.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Jerusalem80.tex">
+    <Content Include="Textures\CVS_Jerusalem80.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Jerusalem_BaldwinIV_45.dds">
+    <Content Include="Textures\CVS_Jerusalem_BaldwinIV_45.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Jerusalem_BaldwinIV_45.tex">
+    <Content Include="Textures\CVS_Jerusalem_BaldwinIV_45.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Jerusalem_Buildings128.dds">
+    <Content Include="Textures\CVS_Jerusalem_Buildings128.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Jerusalem_Buildings128.tex">
+    <Content Include="Textures\CVS_Jerusalem_Buildings128.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Jerusalem_Buildings256.dds">
+    <Content Include="Textures\CVS_Jerusalem_Buildings256.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Jerusalem_Buildings256.tex">
+    <Content Include="Textures\CVS_Jerusalem_Buildings256.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Jerusalem_Buildings32.dds">
+    <Content Include="Textures\CVS_Jerusalem_Buildings32.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Jerusalem_Buildings32.tex">
+    <Content Include="Textures\CVS_Jerusalem_Buildings32.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Jerusalem_Buildings38.dds">
+    <Content Include="Textures\CVS_Jerusalem_Buildings38.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Jerusalem_Buildings38.tex">
+    <Content Include="Textures\CVS_Jerusalem_Buildings38.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Jerusalem_Buildings50.dds">
+    <Content Include="Textures\CVS_Jerusalem_Buildings50.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Jerusalem_Buildings50.tex">
+    <Content Include="Textures\CVS_Jerusalem_Buildings50.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Jerusalem_Buildings80.dds">
+    <Content Include="Textures\CVS_Jerusalem_Buildings80.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\TCS_Jerusalem_Buildings80.tex">
+    <Content Include="Textures\CVS_Jerusalem_Buildings80.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\Templar_Armor_A.dds">
